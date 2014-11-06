@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:zAdjustment="top" android:animationBackground="@color/mz_wallpaper_animation_mask" android:animationBackgroundVisible="true" android:animationBackgroundInterpolator="@interpolator/mz_edit_new_open_enter_bg_alpha"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <combo android:duration="@integer/config_editNewAnimTime" android:mzAlpha="@array/mz_edit_new_open_enter_alpha" android:mzScale="@array/mz_edit_new_open_enter_scale" android:mzCenterX="540" android:mzCenterY="809" />
+</set>

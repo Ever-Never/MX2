@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim0" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim1" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim2" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim3" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim4" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim5" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim6" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim7" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim8" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim9" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim10" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim11" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim12" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim13" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim14" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim15" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim16" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim17" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim18" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim19" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim20" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim21" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim22" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim23" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim24" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim25" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim26" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim27" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim28" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim29" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim30" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim31" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim32" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim33" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim34" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim35" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim36" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim37" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim38" />
+    <item android:duration="33" android:drawable="@drawable/mz_stat_sys_upload_anim39" />
+</animation-list>

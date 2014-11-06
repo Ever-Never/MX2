@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>עבודה</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>בית</item>
+        <item>נייד</item>
+        <item>עבודה</item>
+        <item>פקס בעבודה</item>
+        <item>פקס בבית</item>
+        <item>זימונית</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="system_ringtone_name_list">
+        <item>אזעקת שלושה צפצופים</item>
+        <item>בלוז קצבי</item>
+        <item>מפקד</item>
+        <item>עיר חלום</item>
+        <item>הסחפות</item>
+        <item>עיר קטנה</item>
+        <item>חיים</item>
+        <item>מיי-ינג</item>
+        <item>"ירח מעל הג'יאנגאן"</item>
+        <item>גשם כבד</item>
+        <item>רחוב</item>
+        <item>האביב</item>
+        <item>אביר הרוח</item>
+        <item>אזעקת ביפ-ביפ</item>
+        <item>תנועה</item>
+        <item>קריאה חמודה</item>
+        <item>שם קוד</item>
+        <item>אימפריה</item>
+        <item>פיות פרחים</item>
+        <item>לפוטה</item>
+        <item>קריסטל</item>
+        <item>מטריקס</item>
+        <item>מסע מופלא</item>
+        <item>הרועה</item>
+        <item>טהור</item>
+        <item>משחק</item>
+        <item>בוהק</item>
+        <item>לילה שקט</item>
+        <item>קשר</item>
+        <item>אזעקת פייצו</item>
+        <item>אזעקת באז</item>
+        <item>אזעקת צלצול</item>
+        <item>אזעקת תרנגול</item>
+        <item>התעוררות</item>
+        <item>שחר</item>
+        <item>אלגנטיות</item>
+        <item>ואלס</item>
+        <item>אושר</item>
+        <item>טל של בוקר</item>
+        <item>ריף גיטרה</item>
+        <item>אחרי בית הספר</item>
+        <item>קלטי</item>
+        <item>צלצול קלאסי</item>
+        <item>רעננות</item>
+        <item>מריו</item>
+        <item>ריקוד לבין ערביים</item>
+        <item>קריסטל גדול</item>
+        <item>לילה טוב</item>
+        <item>טמבלר</item>
+        <item>זריחת השמש</item>
+        <item>בין כוכבי</item>
+        <item>טיול לילי</item>
+        <item>בת ים לאור ירח</item>
+        <item>פולסטאר</item>
+        <item>דממת הליל</item>
+        <item>מתנת יומולדת</item>
+        <item>אדווה</item>
+        <item>מטאור</item>
+        <item>קופסאת שוקולד</item>
+        <item>מנהרה</item>
+        <item>חגב</item>
+        <item>"ג'וקר"</item>
+        <item>קונור</item>
+        <item>נפילה</item>
+        <item>Tapping</item>
+        <item>Arrival</item>
+        <item>Doorbell</item>
+        <item>Red Wine Cork</item>
+        <item>Triumph</item>
+        <item>Agile</item>
+        <item>Flyme Tune Bell</item>
+        <item>Flyme Tune Dream</item>
+        <item>Flyme Tune Guitar</item>
+        <item>Flyme Tune Piano</item>
+        <item>Flyme Tune Synth</item>
+        <item>Flyme Tune Techno</item>
+        <item>Flyme Tune Theme</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>אחר</item>
+        <item>בהתאמה אישית</item>
+    </string-array>
+    <string-array name="calendar_week_title">
+        <item>"יום א'"</item>
+        <item>"יום ב'"</item>
+        <item>"יום ג'"</item>
+        <item>"יום ד'"</item>
+        <item>"יום ה'"</item>
+        <item>"יום ו'"</item>
+        <item>שבת</item>
+    </string-array>
+    <string-array name="smartbar_left_right_padding">
+        <item>160px</item>
+        <item>170px(ברירת מחדל)</item>
+        <item>180px</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_action_buttons">5</integer>
+    <integer name="config_wallpaperAnimTime">417</integer>
+    <integer name="config_appAnimTime">400</integer>
+    <integer name="config_fragmentAlphaAnimTime">100</integer>
+    <integer name="config_fragmentAnimTime">500</integer>
+    <integer name="config_editNewAnimTime">350</integer>
+    <integer name="config_lockNumAnimTime">200</integer>
+    <integer name="config_lockPointAnimTime">70</integer>
+    <integer name="config_first_line_cursor_cut">11</integer>
+    <integer name="config_other_line_cursor_cut">7</integer>
+    <integer name="config_line_scale">61</integer>
+    <integer name="config_zoominNextAnimTime">333</integer>
+    <integer name="max_count_of_edot">6</integer>
+    <integer name="count_of_edot_type">3</integer>
+    <integer name="drag_escape_velocity_down">2000</integer>
+    <integer name="drag_escape_velocity_up">1500</integer>
+    <integer name="config_extra_appAnimTime">400</integer>
+    <integer name="config_taskAnimTime">500</integer>
+</resources>

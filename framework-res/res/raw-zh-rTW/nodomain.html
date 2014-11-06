@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+<title>您所查詢的網頁不存在或已移除</title>
+<style type="text/css">
+body {background-color: f2f2f2;color:#b8b8b8;text-align:center; padding: 0; margin: 0; font-family:Arial, Helvetica, sans-serif;direction: ltr;}
+body,html{height: 100%;}
+#outer {height: 100%; overflow: hidden; position: relative;width: 100%;}
+#outer[id] {display: table; ;position: static;}
+#middle {position: absolute; left:11%;top: 90px;width:78%;} /* for explorer only*/
+#inner {position: relative; width: 100%;}/*for explorer only */
+table{-webkit-border-vertical-spacing: 0px}
+td{font-size:14px;height:24px;}
+strong{margin:0 4px 0 0}
+</style>
+		<script type="text/javascript">
+			function getText(el) {
+				return el.innerText || el.textContent;
+			}
+			
+			function setText(el, text) {
+				if (el.innerText) {
+					el.innerText = text;
+				} else if (el.textContent) {
+					el.textContent = text;
+				}
+			}
+		
+			function updateEllipsis(container, label) {
+				if (container.scrollWidth > container.offsetWidth) {
+					var text = getText(label);
+					//此处重要，利用container的实际宽度和显示宽度的比例计算出文字显示的个数，截取开头和结尾部分字符，中间无法显示部分打点显示；
+					var len = container.offsetWidth / container.scrollWidth * text.length;
+					setText(label, text.substring(0, (Math.floor(len) - 1)/2) + ".." + text.substring(text.length - (Math.floor(len) - 1)/2, text.length) );
+					label.title = text;
+				} else {
+					if (label.title != "") {
+						setText(label, label.title);
+						label.title = "";
+					}
+				}
+			}
+			
+			function init() {
+				var div1 = document.getElementById("div1");
+				var lab1 = document.getElementById("lab1");
+				updateEllipsis(div1, lab1);
+			}
+		</script>
+</head>
+<body onload="init();">
+<div id="outer">
+  <div id="middle">
+    <div id="inner" class="greenBorder">
+            <img data="" src="file:///android_asset/webkit/ic_web.png" width="61" height="61" style=" margin: 0px auto ">
+            <div style=" margin: 15px auto 35px auto;font-size:15px;height:15px">找不到網頁</div>
+            <div id="div1" style="overflow:hidden;white-space:nowrap;color:#32a5e7; font-size:14px;line-height:24px"><a id="lab1" href="%s" style="color:#32a5e7 ">%s</a> </div>
+            <table align="center">
+               <tbody>
+				<tr><td>可能原因：</td></tr>
+                <tr><td><strong>●</strong> 此網頁可能暫時出現故障</td></tr>
+                <tr><td><strong>●</strong> 輸入的網址不正確</td></tr>
+                <tr><td><strong>●</strong> 沒有網絡信號或數據連接</td></tr>
+
+               </tbody>
+    </div>
+  </div>
+</div>
+
+</body></html>

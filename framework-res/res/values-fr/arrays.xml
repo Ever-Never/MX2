@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Domicile</item>
+        <item>Bureau</item>
+        <item>Autre</item>
+        <item>Personnalisée</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Bureau</item>
+        <item>Autre</item>
+        <item>Personnalisée</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Domicile</item>
+        <item>Mobile</item>
+        <item>Bureau</item>
+        <item>Télécopie bureau</item>
+        <item>Fax domicile</item>
+        <item>Téléavertisseur</item>
+        <item>Autre</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Domicile</item>
+        <item>Bureau</item>
+        <item>Autre</item>
+        <item>Personnalisée</item>
+    </string-array>
+    <string-array name="system_ringtone_name_list">
+        <item>Alarme à trois bips</item>
+        <item>Rythme Blues</item>
+        <item>Commandant</item>
+        <item>Ville de rêve</item>
+        <item>Dérive</item>
+        <item>"Ville d'origine"</item>
+        <item>Vie</item>
+        <item>Meiying</item>
+        <item>Clair de lune sur Jiangnan</item>
+        <item>Pluie violente</item>
+        <item>Zone routière</item>
+        <item>"L'automne"</item>
+        <item>Wind Knight</item>
+        <item>Alarme à deux bips</item>
+        <item>Mouvement</item>
+        <item>Appel mignon</item>
+        <item>Mot de code</item>
+        <item>Empire</item>
+        <item>Flower Fairies</item>
+        <item>Laputa</item>
+        <item>Little Crystal</item>
+        <item>Matrix</item>
+        <item>Mysterious Journey</item>
+        <item>The Shepherd</item>
+        <item>Pure</item>
+        <item>Enjouement</item>
+        <item>Brillant</item>
+        <item>Nuit silencieuse</item>
+        <item>Lien</item>
+        <item>Alarme piézo</item>
+        <item>Alarme buzzer</item>
+        <item>Alarme à sonnerie</item>
+        <item>Alarme coq</item>
+        <item>Réveil</item>
+        <item>Aube</item>
+        <item>Elégance</item>
+        <item>Valse</item>
+        <item>Joie éblouissante</item>
+        <item>Rosée matinale</item>
+        <item>Riff de guitare</item>
+        <item>"Après l'école"</item>
+        <item>Celtique</item>
+        <item>Sonnerie classique</item>
+        <item>Fraîcheur</item>
+        <item>Mario</item>
+        <item>Danse au crépuscule</item>
+        <item>Cristal</item>
+        <item>Bonne nuit</item>
+        <item>Verre</item>
+        <item>Rayon de soleil</item>
+        <item>Interstellaire</item>
+        <item>Promenade de minuit</item>
+        <item>Sirène au clair de lune</item>
+        <item>Etoile polaire</item>
+        <item>Silence nocturne</item>
+        <item>"Cadeau d'anniversaire"</item>
+        <item>Vague</item>
+        <item>Météorite</item>
+        <item>Boîte de chocolats</item>
+        <item>Tunnel</item>
+        <item>Sauterelle</item>
+        <item>Joker</item>
+        <item>Connor</item>
+        <item>Déposer</item>
+        <item>Tapping</item>
+        <item>Arrival</item>
+        <item>Doorbell</item>
+        <item>Red Wine Cork</item>
+        <item>Triumph</item>
+        <item>Agile</item>
+        <item>Flyme Tune Bell</item>
+        <item>Flyme Tune Dream</item>
+        <item>Flyme Tune Guitar</item>
+        <item>Flyme Tune Piano</item>
+        <item>Flyme Tune Synth</item>
+        <item>Thème Flyme Tune</item>
+        <item>Thème Flyme Tune</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Domicile</item>
+        <item>Bureau</item>
+        <item>Autre</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string-array name="urlspan_tel_dialog_title">
+        <item>"Numéro d'appel"</item>
+        <item>Envoyer message</item>
+        <item>Copier</item>
+        <item>Nouveau contact</item>
+        <item>Ajouter aux contacts</item>
+    </string-array>
+    <string-array name="urlspan_email_dialog_title">
+        <item>Envoyer courriel</item>
+        <item>Copier</item>
+        <item>Nouveau contact</item>
+        <item>Ajouter aux contacts</item>
+    </string-array>
+    <string-array name="urlspan_date_dialog_title">
+        <item>Nouvel évènement</item>
+        <item>Ouvrir dans le calendrier</item>
+        <item>Copier</item>
+    </string-array>
+    <string-array name="urlspan_open_dialog_title">
+        <item>Ouvrir</item>
+        <item>Copier</item>
+    </string-array>
+    <string-array name="urlspan_open_dialog_title_chinamobile">
+        <item>Ouvrir</item>
+        <item>Copier</item>
+        <item>Ajouter aux favoris</item>
+    </string-array>
+    <string-array name="calendar_week_title">
+        <item>Dim</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Jeu</item>
+        <item>Ven</item>
+        <item>Sam</item>
+    </string-array>
+    <string-array name="smartbar_left_right_padding">
+        <item>160px(par défaut)</item>
+        <item>170px</item>
+        <item>180px</item>
+    </string-array>
+</resources>

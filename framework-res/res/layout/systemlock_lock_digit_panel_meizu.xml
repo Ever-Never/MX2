@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/keypadRoot" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/topDisplayGroup" android:layout_width="fill_parent" android:layout_height="@dimen/system_lock_top_display_group_height" android:layout_marginTop="@dimen/system_lock_top_display_group_margin_top">
+        <TextView android:textSize="@dimen/system_lock_tips_textsize" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/inputTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ok" android:includeFontPadding="false" />
+        <FrameLayout android:id="@id/textPad" android:layout_width="fill_parent" android:layout_height="@dimen/system_lock_textpad_height" android:layout_marginTop="@dimen/system_lock_textpad_margin_top">
+            <TextView android:textSize="@dimen/system_lock_input_textsize" android:textStyle="bold" android:textColor="#ffb2b2b2" android:layout_gravity="top|center" android:id="@id/inputText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:lineSpacingExtra="6.0dip" />
+            <com.meizu.widget.LockPasswordView android:layout_gravity="top|center" android:id="@id/special" android:layout_width="wrap_content" android:layout_height="wrap_content" android:mzLockPasswordSolidDrawable="@drawable/ic_password_fill_light" android:mzLockPasswordHollowDrawable="@drawable/ic_password_gap_light" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/text_button" android:padding="@dimen/system_lock_extend_touch_range" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/system_lock_text_button_margin_right" android:src="@drawable/lock_password_btn_delete_light" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.meizu.widget.LockDigitView android:id="@id/keyPad" android:layout_width="@dimen/system_lock_digit_view_width" android:layout_height="@dimen/system_lock_digit_view_height" android:layout_marginTop="@dimen/system_lock_digit_view_margin_top" android:layout_below="@id/topDisplayGroup" android:layout_marginStart="@dimen/system_lock_digit_view_margin_left" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bottom_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/keyPad" />
+</RelativeLayout>

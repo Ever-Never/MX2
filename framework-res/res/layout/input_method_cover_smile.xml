@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.widget.inputmethod.SmileView android:id="@id/input_method_cover_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:emo_panel_width="@dimen/emo_panel_width" android:emo_panel_height="@dimen/emo_panel_height" android:emo_padding_left="@dimen/emo_padding_left" android:emo_padding_top="@dimen/emo_padding_top" android:emo_padding_right="@dimen/emo_padding_right" android:emo_padding_bottom="@dimen/emo_padding_bottom" android:emo_row_count="@integer/emo_row_count" android:emo_col_count="@integer/emo_col_count"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

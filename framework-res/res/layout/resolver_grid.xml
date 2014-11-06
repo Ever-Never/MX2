@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?dividerHorizontal" android:dividerPadding="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.meizu.widget.LimitedHeightScrollView android:id="@id/resolver_grid" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mz_resolve_grid_left" android:layout_marginTop="@dimen/mz_resolve_grid_top" android:layout_marginRight="@dimen/mz_resolve_grid_right" android:layout_marginBottom="@dimen/mz_resolve_grid_bottom" android:fillViewport="true" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="4.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/mz_check_bar" android:background="@drawable/mz_popup_buttonbar_background" android:paddingLeft="@dimen/mz_resolve_grid_checkbox_margin_left" android:paddingRight="@dimen/mz_resolve_grid_checkbox_margin_left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+            <CheckBox android:textSize="@dimen/mz_resolve_grid_item_text_size" android:textColor="#ff808080" android:id="@id/mz_alwaysUse" android:background="@null" android:paddingLeft="@dimen/mz_resolve_grid_checkbox_padding_left" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" android:layoutDirection="locale" style="?android:attr/buttonBarStyle">
+        <Button android:enabled="false" android:textSize="14.0sp" android:layout_gravity="end" android:id="@id/button_always" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_button_bar_height" android:text="@string/activity_resolver_use_always" android:maxLines="2" android:layout_weight="1.0" android:onClick="onButtonClick" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:enabled="false" android:textSize="14.0sp" android:layout_gravity="start" android:id="@id/button_once" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_button_bar_height" android:text="@string/activity_resolver_use_once" android:maxLines="2" android:layout_weight="1.0" android:onClick="onButtonClick" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="top|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="top|center" android:id="@id/slide_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/unlock_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+        <ImageView android:id="@id/unlock_background_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/desktop_status_bar_shadow" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/unlock_icon" android:paddingBottom="@dimen/unlock_margin_to_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drag_unlock_sys" />
+        <LinearLayout android:layout_gravity="bottom|center" android:id="@id/unlock_divider" android:background="@drawable/unlock_handle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/height_of_lock_divider" android:layout_marginBottom="0.0dip" />
+        <FrameLayout android:layout_gravity="top|center" android:id="@id/unlockRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="top|center" android:layout_gravity="top|center" android:orientation="vertical" android:id="@id/lockContentBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/time_margin_to_top" android:layout_marginBottom="@dimen/unlock_widget_bottom_margin">
+                <include layout="@layout/keyguard_screen_weather_and_date_widget" />
+            </LinearLayout>
+            <com.meizu.internal.policy.impl.keyguard.KeyguardMusicView android:layout_gravity="top|center" android:id="@id/musicView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/music_margin_to_top" android:layout_marginBottom="@dimen/unlock_widget_bottom_margin" />
+        </FrameLayout>
+    </FrameLayout>
+    <ViewStub android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/chargingEdotViewStub" android:visibility="gone" android:layout="@layout/lock_charging_edot_view" android:inflatedId="@id/chargingViewSubTree" android:layout_width="@dimen/width_of_charging_view" android:layout_height="@dimen/height_of_charging_view" />
+    <ViewStub android:id="@id/glowViewStub" android:visibility="gone" android:layout="@layout/lock_glow_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:gravity="top" android:id="@id/unlock_snapshot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="720.0dip" android:layout_marginTop="20.0dip" />
+</FrameLayout>

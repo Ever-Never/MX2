@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/mz_list_item_content_padding_left" android:paddingRight="@dimen/mz_list_item_content_padding_right" android:layout_width="fill_parent" android:layout_height="?listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TwoLineListItem android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:mode="twoLine" android:layout_toLeftOf="@id/icon" android:layout_alignParentLeft="true">
+        <TextView android:textAppearance="?textAppearanceMedium" android:ellipsize="end" android:id="@id/text1" android:paddingTop="1.0px" android:paddingBottom="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?textAppearanceSmall" android:ellipsize="end" android:id="@id/text2" android:paddingTop="1.0px" android:paddingBottom="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/text1" android:layout_alignLeft="@id/text1" />
+    </TwoLineListItem>
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/mz_ic_list_global_contact" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+</RelativeLayout>

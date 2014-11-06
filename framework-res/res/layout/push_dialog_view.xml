@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/mz_push_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/push_dialog_icon_panel_padding_left" android:paddingTop="@dimen/push_dialog_icon_panel_padding_top" android:layout_width="@dimen/push_dialog_icon_width" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_marginBottom="9.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+            <ImageView android:layout_gravity="top" android:id="@id/icon" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mz_ic_popup_caution" android:paddingEnd="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/push_dialog_title_panel_paddingtop" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/push_dialog_title_textsize" android:textColor="#ff000000" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.5dip" android:text="@string/dialog_push" />
+            <TextView android:textSize="@dimen/push_dialog_message_textsize" android:textColor="#ff808080" android:id="@id/push_dlg_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlg_push_app_message" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/push_dialog_button_panel_maringtop" android:divider="@null" android:minHeight="@dimen/mz_alert_dialog_button_bar_height" android:showDividers="none" android:dividerPadding="0.0dip">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/mz_popup_buttonbar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/mz_popup_buttonbar_divider" android:measureWithLargestChild="true" android:splitMotionEvents="false" android:dividerPadding="0.0dip" android:layoutDirection="locale" style="?android:attr/buttonBarStyle">
+            <Button android:textSize="@dimen/mz_alert_dialog_button_text_size" android:textColor="#ff000000" android:layout_gravity="start" android:id="@id/push_dlg_button2" android:background="@drawable/mz_popup_btn_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/mz_alert_dialog_button_bar_height" android:text="@string/allow_dialog_push" android:maxLines="2" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+            <Button android:textSize="@dimen/mz_alert_dialog_button_text_size" android:textColor="#ff000000" android:layout_gravity="end" android:id="@id/push_dlg_button1" android:background="@drawable/mz_popup_btn_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/mz_alert_dialog_button_bar_height" android:text="@string/not_allow_dialog_push" android:maxLines="2" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+i</LinearLayout>

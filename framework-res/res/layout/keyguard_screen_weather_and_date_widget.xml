@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.internal.policy.impl.keyguard.DigitalClockAndWeatherForLockScreen android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top|center" android:orientation="horizontal" android:id="@id/clock1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+    <View android:layout_width="wrap_content" android:layout_height="@dimen/gap_between_date_time" />
+    <LinearLayout android:layout_gravity="top|center" android:orientation="horizontal" android:id="@id/date_box" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:gravity="center_horizontal" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ampm_margin_to_left" android:shadowColor="@color/lock_music_name_shadow_foreground" android:shadowDy="2.0" android:shadowRadius="4.0" />
+        <View android:layout_width="@dimen/gap_between_ampm_week" android:layout_height="0.0dip" />
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:id="@id/lock_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/lock_music_name_shadow_foreground" android:shadowDy="2.0" android:shadowRadius="4.0" />
+        <View android:layout_width="@dimen/gap_between_week_date" android:layout_height="0.0dip" />
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:gravity="center_horizontal" android:id="@id/lock_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/lock_music_name_shadow_foreground" android:shadowDy="2.0" android:shadowRadius="4.0" />
+        <ImageView android:layout_gravity="left" android:id="@id/weather_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.meizu.internal.policy.impl.keyguard.DigitalClockAndWeatherForLockScreen>

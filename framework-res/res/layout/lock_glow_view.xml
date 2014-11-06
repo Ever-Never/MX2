@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="bottom|center" android:background="@color/lock_alarm_view_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.internal.policy.impl.keyguard.GlowView android:layout_gravity="bottom|center" android:id="@id/glowView" android:layout_width="@dimen/width_of_glow_view" android:layout_height="@dimen/height_of_glow_view" android:layout_marginBottom="@dimen/glow_view_margin_bottom" />
+    <TextView android:textSize="@dimen/alarm_stop_text_font_size" android:textColor="@color/lock_alarm_stop_text_color" android:layout_gravity="bottom|center" android:id="@id/alarm_stop_text" android:paddingBottom="@dimen/alarm_stop_text_margin_to_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/unlock_icon" android:paddingBottom="@dimen/alarm_unlock_margin_to_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drag_unlock_sys" />
+</FrameLayout>
