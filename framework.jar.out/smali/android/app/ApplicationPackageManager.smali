@@ -6,7 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Landroid/app/ApplicationPackageManager$ResourceName;
+        Landroid/app/ApplicationPackageManager$ResourceName;,
+        Landroid/app/ApplicationPackageManager$BaiduInjector;
     }
 .end annotation
 
@@ -395,24 +396,20 @@
 
     if-eqz v6, :cond_0
 
-    .line 828
     invoke-virtual {p0, p3}, Landroid/app/ApplicationPackageManager;->getResourcesForApplication(Landroid/content/pm/ApplicationInfo;)Landroid/content/res/Resources;
 
     move-result-object v4
 
-    .line 829
-    const v6, 0x10809b7
+    const v6, #android:drawable@theme_ic_google_map#t
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 830
     invoke-static {v4, v0}, Landroid/content/res/theme/IconCustomHelper;->makeThemeIcon(Landroid/content/res/Resources;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 834
     :cond_0
     if-nez v0, :cond_4
 
@@ -1984,7 +1981,7 @@
 
     move-result-object v1
 
-    const v2, 0x1080093
+    const v2, #android:drawable@sym_def_app_icon#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2081,22 +2078,18 @@
 
     iput-boolean v6, v5, Landroid/app/LoadedApk;->mNeedLoadTheme:Z
 
-    .line 698
     invoke-virtual {p0, p3}, Landroid/app/ApplicationPackageManager;->getResourcesForApplication(Landroid/content/pm/ApplicationInfo;)Landroid/content/res/Resources;
 
     move-result-object v3
 
-    .line 699
-    invoke-virtual {v3, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p3, p1, p2, v3}, Landroid/app/ApplicationPackageManager$BaiduInjector;->multiTheme_getDrawableLocal(Landroid/content/pm/ApplicationInfo;Ljava/lang/String;ILandroid/content/res/Resources;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 700
     invoke-static {v3, v0}, Landroid/content/res/theme/IconCustomHelper;->makeThemeIcon(Landroid/content/res/Resources;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 701
     const-string v5, "com.android.calendar"
 
     invoke-virtual {v5, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

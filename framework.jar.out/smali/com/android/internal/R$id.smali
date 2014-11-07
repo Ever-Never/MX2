@@ -15,933 +15,935 @@
 
 
 # static fields
-.field public static final account_name:I = 0x10202c1
+.field public static final account_name:I = #android:id@account_name#t
 
-.field public static final account_row_icon:I = 0x102029d
+.field public static final account_row_icon:I = #android:id@account_row_icon#t
 
-.field public static final account_row_text:I = 0x102029e
+.field public static final account_row_text:I = #android:id@account_row_text#t
 
-.field public static final account_type:I = 0x10202c0
+.field public static final account_type:I = #android:id@account_type#t
 
-.field public static final action0:I = 0x1020391
+.field public static final action0:I = #android:id@action0#t
 
-.field public static final action1:I = 0x10203c0
+.field public static final action1:I = #android:id@action1#t
 
-.field public static final action2:I = 0x10203c1
+.field public static final action2:I = #android:id@action2#t
 
-.field public static final action_bar:I = 0x10203ef
+.field public static final action_bar:I = #android:id@action_bar#t
 
-.field public static final action_bar_container:I = 0x10203ee
+.field public static final action_bar_container:I = #android:id@action_bar_container#t
 
-.field public static final action_bar_overlay_layout:I = 0x10203f3
+.field public static final action_bar_overlay_layout:I = #android:id@action_bar_overlay_layout#t
 
-.field public static final action_bar_subtitle:I = 0x1020275
+.field public static final action_bar_subtitle:I = #android:id@action_bar_subtitle#t
 
-.field public static final action_bar_title:I = 0x1020274
+.field public static final action_bar_title:I = #android:id@action_bar_title#t
 
-.field public static final action_context_bar:I = 0x10203f0
+.field public static final action_context_bar:I = #android:id@action_context_bar#t
 
-.field public static final action_divider:I = 0x10203c3
+.field public static final action_divider:I = #android:id@action_divider#t
 
-.field public static final action_menu_presenter:I = 0x1020250
+.field public static final action_menu_presenter:I = #android:id@action_menu_presenter#t
 
-.field public static final action_mode_bar_stub:I = 0x10203e9
+.field public static final action_mode_bar_stub:I = #android:id@action_mode_bar_stub#t
 
-.field public static final action_mode_close_button:I = 0x1020276
+.field public static final action_mode_close_button:I = #android:id@action_mode_close_button#t
 
-.field public static final actions:I = 0x1020399
+.field public static final actions:I = #android:id@actions#t
 
-.field public static final activity_chooser_view_content:I = 0x1020277
+.field public static final activity_chooser_view_content:I = #android:id@activity_chooser_view_content#t
 
-.field public static final addToDictionary:I = 0x102002a
+.field public static final addToDictionary:I = #android:id@addToDictionary#t
 
-.field public static final airplane_img:I = 0x10202bb
+.field public static final airplane_img:I = #android:id@airplane_img#t
 
-.field public static final airplane_img_light:I = 0x10202bc
+.field public static final airplane_img_light:I = #android:id@airplane_img_light#t
 
-.field public static final airplane_linear:I = 0x10202ba
+.field public static final airplane_linear:I = #android:id@airplane_linear#t
 
-.field public static final alarm_status:I = 0x102032b
+.field public static final alarm_status:I = #android:id@alarm_status#t
 
-.field public static final alarm_stop_text:I = 0x1020369
+.field public static final alarm_stop_text:I = #android:id@alarm_stop_text#t
 
-.field public static final albumart:I = 0x1020359
+.field public static final albumart:I = #android:id@albumart#t
 
-.field public static final alertTitle:I = 0x102027f
+.field public static final alertTitle:I = #android:id@alertTitle#t
 
-.field public static final allow_button:I = 0x10202c6
+.field public static final allow_button:I = #android:id@allow_button#t
 
-.field public static final alwaysUse:I = 0x102028a
+.field public static final alwaysUse:I = #android:id@alwaysUse#t
 
-.field public static final amPm:I = 0x1020431
+.field public static final amPm:I = #android:id@amPm#t
 
-.field public static final am_pm:I = 0x102034b
+.field public static final am_pm:I = #android:id@am_pm#t
 
-.field public static final app_widget_container:I = 0x10202e9
+.field public static final app_widget_container:I = #android:id@app_widget_container#t
 
-.field public static final artistTips:I = 0x102036f
+.field public static final artistTips:I = #android:id@artistTips#t
 
-.field public static final ask_checkbox:I = 0x102028d
+.field public static final ask_checkbox:I = #android:id@ask_checkbox#t
 
-.field public static final authtoken_type:I = 0x10202c2
+.field public static final authtoken_type:I = #android:id@authtoken_type#t
 
-.field public static final back_button:I = 0x10203a9
+.field public static final back_button:I = #android:id@back_button#t
 
-.field public static final background:I = 0x1020000
+.field public static final background:I = #android:id@background#t
 
-.field public static final backspace:I = 0x102033d
+.field public static final backspace:I = #android:id@backspace#t
 
-.field public static final banner:I = 0x1020440
+.field public static final banner:I = #android:id@banner#t
 
-.field public static final big_picture:I = 0x1020398
+.field public static final big_picture:I = #android:id@big_picture#t
 
-.field public static final big_text:I = 0x10203c2
+.field public static final big_text:I = #android:id@big_text#t
 
-.field public static final body:I = 0x10203ad
+.field public static final body:I = #android:id@body#t
 
-.field public static final bottom_frame:I = 0x102042b
+.field public static final bottom_frame:I = #android:id@bottom_frame#t
 
-.field public static final breadcrumb_section:I = 0x1020298
+.field public static final breadcrumb_section:I = #android:id@breadcrumb_section#t
 
-.field public static final btn_camera:I = 0x1020339
+.field public static final btn_camera:I = #android:id@btn_camera#t
 
-.field public static final btn_next:I = 0x102035c
+.field public static final btn_next:I = #android:id@btn_next#t
 
-.field public static final btn_pin_ok:I = 0x1020335
+.field public static final btn_pin_ok:I = #android:id@btn_pin_ok#t
 
-.field public static final btn_pin_visitor_mode:I = 0x1020334
+.field public static final btn_pin_visitor_mode:I = #android:id@btn_pin_visitor_mode#t
 
-.field public static final btn_play:I = 0x102035b
+.field public static final btn_play:I = #android:id@btn_play#t
 
-.field public static final btn_prev:I = 0x102035a
+.field public static final btn_prev:I = #android:id@btn_prev#t
 
-.field public static final btn_visitor_mode:I = 0x1020336
+.field public static final btn_visitor_mode:I = #android:id@btn_visitor_mode#t
 
-.field public static final button0:I = 0x10203dd
+.field public static final button0:I = #android:id@button0#t
 
-.field public static final button1:I = 0x1020019
+.field public static final button1:I = #android:id@button1#t
 
-.field public static final button2:I = 0x102001a
+.field public static final button2:I = #android:id@button2#t
 
-.field public static final button3:I = 0x102001b
+.field public static final button3:I = #android:id@button3#t
 
-.field public static final button4:I = 0x10203de
+.field public static final button4:I = #android:id@button4#t
 
-.field public static final button5:I = 0x10203df
+.field public static final button5:I = #android:id@button5#t
 
-.field public static final button6:I = 0x10203e0
+.field public static final button6:I = #android:id@button6#t
 
-.field public static final button7:I = 0x10203e1
+.field public static final button7:I = #android:id@button7#t
 
-.field public static final buttonPanel:I = 0x1020281
+.field public static final buttonPanel:I = #android:id@buttonPanel#t
 
-.field public static final button_always:I = 0x10203e7
+.field public static final button_always:I = #android:id@button_always#t
 
-.field public static final button_bar:I = 0x10202a0
+.field public static final button_bar:I = #android:id@button_bar#t
 
-.field public static final button_once:I = 0x10203e8
+.field public static final button_once:I = #android:id@button_once#t
 
-.field public static final by_common:I = 0x1020417
+.field public static final by_common:I = #android:id@by_common#t
 
-.field public static final by_org:I = 0x1020419
+.field public static final by_org:I = #android:id@by_org#t
 
-.field public static final by_org_unit:I = 0x102041b
+.field public static final by_org_unit:I = #android:id@by_org_unit#t
 
-.field public static final calendar_view:I = 0x10202a7
+.field public static final calendar_view:I = #android:id@calendar_view#t
 
-.field public static final cancel:I = 0x102029c
+.field public static final cancel:I = #android:id@cancel#t
 
-.field public static final candidatesArea:I = 0x102001d
+.field public static final cancel_button:I = #id@cancel_button#t
 
-.field public static final carrier:I = 0x102032d
+.field public static final candidatesArea:I = #android:id@candidatesArea#t
 
-.field public static final characterPicker:I = 0x102029b
+.field public static final carrier:I = #android:id@carrier#t
 
-.field public static final chargingEdotViewStub:I = 0x1020324
+.field public static final characterPicker:I = #android:id@characterPicker#t
 
-.field public static final chargingView:I = 0x1020367
+.field public static final chargingEdotViewStub:I = #android:id@chargingEdotViewStub#t
 
-.field public static final check:I = 0x1020378
+.field public static final chargingView:I = #android:id@chargingView#t
 
-.field public static final checkbox:I = 0x1020001
+.field public static final check:I = #android:id@check#t
 
-.field public static final chronometer:I = 0x1020395
+.field public static final checkbox:I = #android:id@checkbox#t
 
-.field public static final clearDefaultHint:I = 0x102028b
+.field public static final chronometer:I = #android:id@chronometer#t
 
-.field public static final clock1:I = 0x1020349
+.field public static final clearDefaultHint:I = #android:id@clearDefaultHint#t
 
-.field public static final clock_text:I = 0x1020357
+.field public static final clock1:I = #android:id@clock1#t
 
-.field public static final clock_view:I = 0x1020356
+.field public static final clock_text:I = #android:id@clock_text#t
 
-.field public static final closeButton:I = 0x1020027
+.field public static final clock_view:I = #android:id@clock_view#t
 
-.field public static final close_linear:I = 0x10202b0
+.field public static final closeButton:I = #android:id@closeButton#t
 
-.field public static final close_txt:I = 0x10202b1
+.field public static final close_linear:I = #android:id@close_linear#t
 
-.field public static final compat_checkbox:I = 0x102028c
+.field public static final close_txt:I = #android:id@close_txt#t
 
-.field public static final content:I = 0x1020002
+.field public static final compat_checkbox:I = #android:id@compat_checkbox#t
 
-.field public static final contentPanel:I = 0x1020284
+.field public static final content:I = #android:id@content#t
 
-.field public static final copy:I = 0x1020021
+.field public static final contentPanel:I = #android:id@contentPanel#t
 
-.field public static final copyAll:I = 0x102026c
+.field public static final copy:I = #android:id@copy#t
 
-.field public static final copyUrl:I = 0x1020023
+.field public static final copyAll:I = #android:id@copyAll#t
 
-.field public static final custom:I = 0x102002b
+.field public static final copyUrl:I = #android:id@copyUrl#t
 
-.field public static final customPanel:I = 0x1020286
+.field public static final custom:I = #android:id@custom#t
 
-.field public static final cut:I = 0x1020020
+.field public static final customPanel:I = #android:id@customPanel#t
 
-.field public static final date:I = 0x1020063
+.field public static final cut:I = #android:id@cut#t
 
-.field public static final datePicker:I = 0x10202a8
+.field public static final date:I = #android:id@date#t
 
-.field public static final datePickerCheckBox:I = 0x1020381
+.field public static final datePicker:I = #android:id@datePicker#t
 
-.field public static final datePickerCheckBoxLabel:I = 0x1020382
+.field public static final datePickerCheckBox:I = #android:id@datePickerCheckBox#t
 
-.field public static final datePickerCheckBoxLayout:I = 0x1020380
+.field public static final datePickerCheckBoxLabel:I = #android:id@datePickerCheckBoxLabel#t
 
-.field public static final date_box:I = 0x102034a
+.field public static final datePickerCheckBoxLayout:I = #android:id@datePickerCheckBoxLayout#t
 
-.field public static final day:I = 0x10202a5
+.field public static final date_box:I = #android:id@date_box#t
 
-.field public static final day_names:I = 0x102029a
+.field public static final day:I = #android:id@day#t
 
-.field public static final decrement:I = 0x10203d0
+.field public static final day_names:I = #android:id@day_names#t
 
-.field public static final default_activity_button:I = 0x102027a
+.field public static final decrement:I = #android:id@decrement#t
 
-.field public static final delete:I = 0x1020257
+.field public static final default_activity_button:I = #android:id@default_activity_button#t
 
-.field public static final delete_button:I = 0x10202f9
+.field public static final delete:I = #android:id@delete#t
 
-.field public static final deny_button:I = 0x10202c5
+.field public static final delete_button:I = #android:id@delete_button#t
 
-.field public static final description:I = 0x102029f
+.field public static final deny_button:I = #android:id@deny_button#t
 
-.field public static final divider:I = 0x1020432
+.field public static final description:I = #android:id@description#t
 
-.field public static final edit:I = 0x1020003
+.field public static final divider:I = #android:id@divider#t
 
-.field public static final edit_query:I = 0x10203f8
+.field public static final edit:I = #android:id@edit#t
 
-.field public static final edittext_container:I = 0x102039f
+.field public static final edit_query:I = #android:id@edit_query#t
 
-.field public static final eight:I = 0x102043a
+.field public static final edittext_container:I = #android:id@edittext_container#t
 
-.field public static final emergencyCallButton:I = 0x102030c
+.field public static final eight:I = #android:id@eight#t
 
-.field public static final emergency_call_button:I = 0x10202dd
+.field public static final emergencyCallButton:I = #android:id@emergencyCallButton#t
 
-.field public static final empty:I = 0x1020004
+.field public static final emergency_call_button:I = #android:id@emergency_call_button#t
 
-.field public static final enter_pin_section:I = 0x1020446
+.field public static final empty:I = #android:id@empty#t
 
-.field public static final expand_activities_button:I = 0x1020278
+.field public static final enter_pin_section:I = #android:id@enter_pin_section#t
 
-.field public static final expand_button:I = 0x1020377
+.field public static final expand_activities_button:I = #android:id@expand_activities_button#t
 
-.field public static final expand_button_divider:I = 0x10203bd
+.field public static final expand_button:I = #android:id@expand_button#t
 
-.field public static final expires_on:I = 0x1020420
+.field public static final expand_button_divider:I = #android:id@expand_button_divider#t
 
-.field public static final extended_settings:I = 0x1020376
+.field public static final expires_on:I = #android:id@expires_on#t
 
-.field public static final extractArea:I = 0x102001c
+.field public static final extended_settings:I = #android:id@extended_settings#t
 
-.field public static final face_unlock_area_view:I = 0x10202e1
+.field public static final extractArea:I = #android:id@extractArea#t
 
-.field public static final face_unlock_cancel_button:I = 0x10202e3
+.field public static final face_unlock_area_view:I = #android:id@face_unlock_area_view#t
 
-.field public static final ffwd:I = 0x1020371
+.field public static final face_unlock_cancel_button:I = #android:id@face_unlock_cancel_button#t
 
-.field public static final fillInIntent:I = 0x102024a
+.field public static final ffwd:I = #android:id@ffwd#t
 
-.field public static final find:I = 0x1020454
+.field public static final fillInIntent:I = #android:id@fillInIntent#t
 
-.field public static final find_next:I = 0x1020457
+.field public static final find:I = #android:id@find#t
 
-.field public static final find_prev:I = 0x1020456
+.field public static final find_next:I = #android:id@find_next#t
 
-.field public static final finderMessage:I = 0x102030a
+.field public static final find_prev:I = #android:id@find_prev#t
 
-.field public static final five:I = 0x1020437
+.field public static final finderMessage:I = #android:id@finderMessage#t
 
-.field public static final flymeAccount:I = 0x1020306
+.field public static final five:I = #android:id@five#t
 
-.field public static final forgotPatternButton:I = 0x1020348
+.field public static final flymeAccount:I = #android:id@flymeAccount#t
 
-.field public static final forgot_password_button:I = 0x10202de
+.field public static final forgotPatternButton:I = #android:id@forgotPatternButton#t
 
-.field public static final four:I = 0x1020436
+.field public static final forgot_password_button:I = #android:id@forgot_password_button#t
 
-.field public static final fullscreenArea:I = 0x10202d0
+.field public static final four:I = #android:id@four#t
 
-.field public static final glowView:I = 0x1020368
+.field public static final fullscreenArea:I = #android:id@fullscreenArea#t
 
-.field public static final glowViewStub:I = 0x1020326
+.field public static final glowView:I = #android:id@glowView#t
 
-.field public static final glow_pad_view:I = 0x10202e5
+.field public static final glowViewStub:I = #android:id@glowViewStub#t
 
-.field public static final hard_keyboard_section:I = 0x10202d5
+.field public static final glow_pad_view:I = #android:id@glow_pad_view#t
 
-.field public static final hard_keyboard_switch:I = 0x10202d6
+.field public static final hard_keyboard_section:I = #android:id@hard_keyboard_section#t
 
-.field public static final headerText:I = 0x102033a
+.field public static final hard_keyboard_switch:I = #android:id@hard_keyboard_switch#t
 
-.field public static final headers:I = 0x10203a3
+.field public static final headerText:I = #android:id@headerText#t
 
-.field public static final hint:I = 0x1020005
+.field public static final headers:I = #android:id@headers#t
 
-.field public static final home:I = 0x102002c
+.field public static final hint:I = #android:id@hint#t
 
-.field public static final hour:I = 0x102042f
+.field public static final home:I = #android:id@home#t
 
-.field public static final icon:I = 0x1020006
+.field public static final hour:I = #android:id@hour#t
 
-.field public static final icon1:I = 0x1020007
+.field public static final icon:I = #android:id@icon#t
 
-.field public static final icon2:I = 0x1020008
+.field public static final icon1:I = #android:id@icon1#t
 
-.field public static final icon_menu_presenter:I = 0x102024e
+.field public static final icon2:I = #android:id@icon2#t
 
-.field public static final identity:I = 0x102037d
+.field public static final icon_menu_presenter:I = #android:id@icon_menu_presenter#t
 
-.field public static final image:I = 0x1020279
+.field public static final identity:I = #android:id@identity#t
 
-.field public static final inbox_end_pad:I = 0x10203cd
+.field public static final image:I = #android:id@image#t
 
-.field public static final inbox_more:I = 0x10203cc
+.field public static final inbox_end_pad:I = #android:id@inbox_end_pad#t
 
-.field public static final inbox_text0:I = 0x10203c5
+.field public static final inbox_more:I = #android:id@inbox_more#t
 
-.field public static final inbox_text1:I = 0x10203c6
+.field public static final inbox_text0:I = #android:id@inbox_text0#t
 
-.field public static final inbox_text2:I = 0x10203c7
+.field public static final inbox_text1:I = #android:id@inbox_text1#t
 
-.field public static final inbox_text3:I = 0x10203c8
+.field public static final inbox_text2:I = #android:id@inbox_text2#t
 
-.field public static final inbox_text4:I = 0x10203c9
+.field public static final inbox_text3:I = #android:id@inbox_text3#t
 
-.field public static final inbox_text5:I = 0x10203ca
+.field public static final inbox_text4:I = #android:id@inbox_text4#t
 
-.field public static final inbox_text6:I = 0x10203cb
+.field public static final inbox_text5:I = #android:id@inbox_text5#t
 
-.field public static final increment:I = 0x10203ce
+.field public static final inbox_text6:I = #android:id@inbox_text6#t
 
-.field public static final info:I = 0x1020397
+.field public static final increment:I = #android:id@increment#t
 
-.field public static final input:I = 0x1020009
+.field public static final info:I = #android:id@info#t
 
-.field public static final inputArea:I = 0x102001e
+.field public static final input:I = #android:id@input#t
 
-.field public static final inputBox:I = 0x1020332
+.field public static final inputArea:I = #android:id@inputArea#t
 
-.field public static final inputExtractAccessories:I = 0x10202d2
+.field public static final inputBox:I = #android:id@inputBox#t
 
-.field public static final inputExtractAction:I = 0x10202d3
+.field public static final inputExtractAccessories:I = #android:id@inputExtractAccessories#t
 
-.field public static final inputExtractEditButton:I = 0x10202d4
+.field public static final inputExtractAction:I = #android:id@inputExtractAction#t
 
-.field public static final inputExtractEditText:I = 0x1020025
+.field public static final inputExtractEditButton:I = #android:id@inputExtractEditButton#t
 
-.field public static final inputText:I = 0x1020429
+.field public static final inputExtractEditText:I = #android:id@inputExtractEditText#t
 
-.field public static final inputTips:I = 0x1020427
+.field public static final inputText:I = #android:id@inputText#t
 
-.field public static final input_method_cover_view:I = 0x10202d1
+.field public static final inputTips:I = #android:id@inputTips#t
 
-.field public static final instructions:I = 0x102030f
+.field public static final input_method_cover_view:I = #android:id@input_method_cover_view#t
 
-.field public static final internalEmpty:I = 0x1020364
+.field public static final instructions:I = #android:id@instructions#t
 
-.field public static final issued_on:I = 0x102041e
+.field public static final internalEmpty:I = #android:id@internalEmpty#t
 
-.field public static final keyPad:I = 0x102033f
+.field public static final issued_on:I = #android:id@issued_on#t
 
-.field public static final key_enter:I = 0x1020304
+.field public static final keyPad:I = #android:id@keyPad#t
 
-.field public static final keyboard:I = 0x1020222
+.field public static final key_enter:I = #android:id@key_enter#t
 
-.field public static final keyboardView:I = 0x1020026
+.field public static final keyboard:I = #android:id@keyboard#t
 
-.field public static final keyguard_account_view:I = 0x10202d9
+.field public static final keyboardView:I = #android:id@keyboardView#t
 
-.field public static final keyguard_add_widget:I = 0x10202db
+.field public static final keyguard_account_view:I = #android:id@keyguard_account_view#t
 
-.field public static final keyguard_add_widget_view:I = 0x10202dc
+.field public static final keyguard_add_widget:I = #android:id@keyguard_add_widget#t
 
-.field public static final keyguard_bouncer_frame:I = 0x10202e0
+.field public static final keyguard_add_widget_view:I = #android:id@keyguard_add_widget_view#t
 
-.field public static final keyguard_click_area:I = 0x10202a9
+.field public static final keyguard_bouncer_frame:I = #android:id@keyguard_bouncer_frame#t
 
-.field public static final keyguard_face_unlock_view:I = 0x10202df
+.field public static final keyguard_click_area:I = #android:id@keyguard_click_area#t
 
-.field public static final keyguard_host_view:I = 0x10202e6
+.field public static final keyguard_face_unlock_view:I = #android:id@keyguard_face_unlock_view#t
 
-.field public static final keyguard_message_area:I = 0x10202aa
+.field public static final keyguard_host_view:I = #android:id@keyguard_host_view#t
 
-.field public static final keyguard_multi_user_selector:I = 0x10202f1
+.field public static final keyguard_message_area:I = #android:id@keyguard_message_area#t
 
-.field public static final keyguard_password_view:I = 0x10202f2
+.field public static final keyguard_multi_user_selector:I = #android:id@keyguard_multi_user_selector#t
 
-.field public static final keyguard_pattern_view:I = 0x10202f5
+.field public static final keyguard_password_view:I = #android:id@keyguard_password_view#t
 
-.field public static final keyguard_pin_view:I = 0x10202f7
+.field public static final keyguard_pattern_view:I = #android:id@keyguard_pattern_view#t
 
-.field public static final keyguard_selector_fade_container:I = 0x10202e4
+.field public static final keyguard_pin_view:I = #android:id@keyguard_pin_view#t
 
-.field public static final keyguard_selector_view:I = 0x102034f
+.field public static final keyguard_selector_fade_container:I = #android:id@keyguard_selector_fade_container#t
 
-.field public static final keyguard_selector_view_frame:I = 0x1020350
+.field public static final keyguard_selector_view:I = #android:id@keyguard_selector_view#t
 
-.field public static final keyguard_sim_pin_view:I = 0x1020351
+.field public static final keyguard_selector_view_frame:I = #android:id@keyguard_selector_view_frame#t
 
-.field public static final keyguard_sim_puk_view:I = 0x1020352
+.field public static final keyguard_sim_pin_view:I = #android:id@keyguard_sim_pin_view#t
 
-.field public static final keyguard_status_view:I = 0x1020354
+.field public static final keyguard_sim_puk_view:I = #android:id@keyguard_sim_puk_view#t
 
-.field public static final keyguard_status_view_face_palm:I = 0x1020355
+.field public static final keyguard_status_view:I = #android:id@keyguard_status_view#t
 
-.field public static final keyguard_transport_control:I = 0x102035d
+.field public static final keyguard_status_view_face_palm:I = #android:id@keyguard_status_view_face_palm#t
 
-.field public static final keyguard_user_avatar:I = 0x10202ed
+.field public static final keyguard_transport_control:I = #android:id@keyguard_transport_control#t
 
-.field public static final keyguard_user_name:I = 0x10202ee
+.field public static final keyguard_user_avatar:I = #android:id@keyguard_user_avatar#t
 
-.field public static final keyguard_user_selector:I = 0x10202ef
+.field public static final keyguard_user_name:I = #android:id@keyguard_user_name#t
 
-.field public static final keyguard_users_grid:I = 0x10202f0
+.field public static final keyguard_user_selector:I = #android:id@keyguard_user_selector#t
 
-.field public static final keyguard_widget_pager_delete_target:I = 0x10202e8
+.field public static final keyguard_users_grid:I = #android:id@keyguard_users_grid#t
 
-.field public static final keyguard_widgets:I = 0x1020337
+.field public static final keyguard_widget_pager_delete_target:I = #android:id@keyguard_widget_pager_delete_target#t
 
-.field public static final keypadRoot:I = 0x1020426
+.field public static final keyguard_widgets:I = #android:id@keyguard_widgets#t
 
-.field public static final keypadView:I = 0x10202a2
+.field public static final keypadRoot:I = #android:id@keypadRoot#t
 
-.field public static final leftSpacer:I = 0x1020282
+.field public static final keypadView:I = #android:id@keypadView#t
 
-.field public static final left_button:I = 0x102042d
+.field public static final leftSpacer:I = #android:id@leftSpacer#t
 
-.field public static final left_icon:I = 0x1020243
+.field public static final left_button:I = #android:id@left_button#t
 
-.field public static final line1:I = 0x1020393
+.field public static final left_icon:I = #android:id@left_icon#t
 
-.field public static final line3:I = 0x1020396
+.field public static final line1:I = #android:id@line1#t
 
-.field public static final list:I = 0x102000a
+.field public static final line3:I = #android:id@line3#t
 
-.field public static final listContainer:I = 0x1020363
+.field public static final list:I = #android:id@list#t
 
-.field public static final list_footer:I = 0x10203a4
+.field public static final listContainer:I = #android:id@listContainer#t
 
-.field public static final list_item:I = 0x102027b
+.field public static final list_footer:I = #android:id@list_footer#t
 
-.field public static final list_menu_presenter:I = 0x102024f
+.field public static final list_item:I = #android:id@list_item#t
 
-.field public static final locale:I = 0x1020176
+.field public static final list_menu_presenter:I = #android:id@list_menu_presenter#t
 
-.field public static final lockContentBox:I = 0x1020322
+.field public static final locale:I = #android:id@locale#t
 
-.field public static final lockPattern:I = 0x1020338
+.field public static final lockContentBox:I = #android:id@lockContentBox#t
 
-.field public static final lockPatternView:I = 0x10202f6
+.field public static final lockPattern:I = #android:id@lockPattern#t
 
-.field public static final lock_date:I = 0x102034d
+.field public static final lockPatternView:I = #android:id@lockPatternView#t
 
-.field public static final lock_findphone_devider:I = 0x1020307
+.field public static final lock_date:I = #android:id@lock_date#t
 
-.field public static final lock_screen:I = 0x1020247
+.field public static final lock_findphone_devider:I = #android:id@lock_findphone_devider#t
 
-.field public static final lock_week:I = 0x102034c
+.field public static final lock_screen:I = #android:id@lock_screen#t
 
-.field public static final login:I = 0x10202da
+.field public static final lock_week:I = #android:id@lock_week#t
 
-.field public static final main:I = 0x10202a1
+.field public static final login:I = #android:id@login#t
 
-.field public static final matches:I = 0x1020445
+.field public static final main:I = #android:id@main#t
 
-.field public static final mediacontroller_progress:I = 0x1020373
+.field public static final matches:I = #android:id@matches#t
 
-.field public static final message:I = 0x102000b
+.field public static final mediacontroller_progress:I = #android:id@mediacontroller_progress#t
 
-.field public static final minute:I = 0x1020430
+.field public static final message:I = #android:id@message#t
 
-.field public static final mode_normal:I = 0x102044f
+.field public static final minute:I = #android:id@minute#t
 
-.field public static final month:I = 0x10202a4
+.field public static final mode_normal:I = #android:id@mode_normal#t
 
-.field public static final month_name:I = 0x1020299
+.field public static final month:I = #android:id@month#t
 
-.field public static final mount_button:I = 0x1020441
+.field public static final month_name:I = #android:id@month_name#t
 
-.field public static final multi_pane_challenge:I = 0x10202e7
+.field public static final mount_button:I = #android:id@mount_button#t
 
-.field public static final musicTips:I = 0x102036a
+.field public static final multi_pane_challenge:I = #android:id@multi_pane_challenge#t
 
-.field public static final musicView:I = 0x1020323
+.field public static final musicTips:I = #android:id@musicTips#t
 
-.field public static final mz_alwaysUse:I = 0x10203e6
+.field public static final musicView:I = #android:id@musicView#t
 
-.field public static final mz_check_bar:I = 0x10203e5
+.field public static final mz_alwaysUse:I = #android:id@mz_alwaysUse#t
 
-.field public static final mz_checkbox_container:I = 0x102026f
+.field public static final mz_check_bar:I = #android:id@mz_check_bar#t
 
-.field public static final mz_column1Layout:I = 0x1020385
+.field public static final mz_checkbox_container:I = #android:id@mz_checkbox_container#t
 
-.field public static final mz_column2Layout:I = 0x1020389
+.field public static final mz_column1Layout:I = #android:id@mz_column1Layout#t
 
-.field public static final mz_column3Layout:I = 0x102038d
+.field public static final mz_column2Layout:I = #android:id@mz_column2Layout#t
 
-.field public static final mz_column_parent:I = 0x1020384
+.field public static final mz_column3Layout:I = #android:id@mz_column3Layout#t
 
-.field public static final mz_date:I = 0x1020270
+.field public static final mz_column_parent:I = #android:id@mz_column_parent#t
 
-.field public static final mz_divider_bar1:I = 0x1020388
+.field public static final mz_date:I = #android:id@mz_date#t
 
-.field public static final mz_divider_bar2:I = 0x102038c
+.field public static final mz_divider_bar1:I = #android:id@mz_divider_bar1#t
 
-.field public static final mz_edit_container:I = 0x10203a1
+.field public static final mz_divider_bar2:I = #android:id@mz_divider_bar2#t
 
-.field public static final mz_extra_container:I = 0x102026d
+.field public static final mz_edit_container:I = #android:id@mz_edit_container#t
 
-.field public static final mz_extra_content:I = 0x10203f2
+.field public static final mz_extra_container:I = #android:id@mz_extra_container#t
 
-.field public static final mz_grid_menu:I = 0x1020390
+.field public static final mz_extra_content:I = #android:id@mz_extra_content#t
 
-.field public static final mz_icon_container:I = 0x102026e
+.field public static final mz_grid_menu:I = #android:id@mz_grid_menu#t
 
-.field public static final mz_item_container:I = 0x1020272
+.field public static final mz_icon_container:I = #android:id@mz_icon_container#t
 
-.field public static final mz_message:I = 0x102037f
+.field public static final mz_item_container:I = #android:id@mz_item_container#t
 
-.field public static final mz_message_icon:I = 0x1020273
+.field public static final mz_message:I = #android:id@mz_message#t
 
-.field public static final mz_pppoe_icon:I = 0x102039a
+.field public static final mz_message_icon:I = #android:id@mz_message_icon#t
 
-.field public static final mz_pppoe_title:I = 0x102039b
+.field public static final mz_pppoe_icon:I = #android:id@mz_pppoe_icon#t
 
-.field public static final mz_preference_frame:I = 0x10203a2
+.field public static final mz_pppoe_title:I = #android:id@mz_pppoe_title#t
 
-.field public static final mz_preference_text_layout:I = 0x102039e
+.field public static final mz_preference_frame:I = #android:id@mz_preference_frame#t
 
-.field public static final mz_recipient_add_btn:I = 0x10203b3
+.field public static final mz_preference_text_layout:I = #android:id@mz_preference_text_layout#t
 
-.field public static final mz_recipient_edit:I = 0x10203b2
+.field public static final mz_recipient_add_btn:I = #android:id@mz_recipient_add_btn#t
 
-.field public static final mz_recipient_hint:I = 0x10203b1
+.field public static final mz_recipient_edit:I = #android:id@mz_recipient_edit#t
 
-.field public static final mz_recipient_hint2:I = 0x10203b4
+.field public static final mz_recipient_hint:I = #android:id@mz_recipient_hint#t
 
-.field public static final mz_recipient_layout:I = 0x10203b0
+.field public static final mz_recipient_hint2:I = #android:id@mz_recipient_hint2#t
 
-.field public static final mz_recipient_name:I = 0x10203b5
+.field public static final mz_recipient_layout:I = #android:id@mz_recipient_layout#t
 
-.field public static final mz_recipient_root:I = 0x10203ae
+.field public static final mz_recipient_name:I = #android:id@mz_recipient_name#t
 
-.field public static final mz_recipient_scrollview:I = 0x10203af
+.field public static final mz_recipient_root:I = #android:id@mz_recipient_root#t
 
-.field public static final mz_recipient_total:I = 0x10203b6
+.field public static final mz_recipient_scrollview:I = #android:id@mz_recipient_scrollview#t
 
-.field public static final mz_scroll1:I = 0x1020386
+.field public static final mz_recipient_total:I = #android:id@mz_recipient_total#t
 
-.field public static final mz_scroll1_text:I = 0x1020387
+.field public static final mz_scroll1:I = #android:id@mz_scroll1#t
 
-.field public static final mz_scroll2:I = 0x102038a
+.field public static final mz_scroll1_text:I = #android:id@mz_scroll1_text#t
 
-.field public static final mz_scroll2_text:I = 0x102038b
+.field public static final mz_scroll2:I = #android:id@mz_scroll2#t
 
-.field public static final mz_scroll3:I = 0x102038e
+.field public static final mz_scroll2_text:I = #android:id@mz_scroll2_text#t
 
-.field public static final mz_scroll3_text:I = 0x102038f
+.field public static final mz_scroll3:I = #android:id@mz_scroll3#t
 
-.field public static final mz_scrollpane:I = 0x10203a5
+.field public static final mz_scroll3_text:I = #android:id@mz_scroll3_text#t
 
-.field public static final mz_select_box:I = 0x1020383
+.field public static final mz_scrollpane:I = #android:id@mz_scrollpane#t
 
-.field public static final mz_selection_infiniti:I = 0x1020451
+.field public static final mz_select_box:I = #android:id@mz_select_box#t
 
-.field public static final mz_subTitle:I = 0x1020394
+.field public static final mz_selection_infiniti:I = #android:id@mz_selection_infiniti#t
 
-.field public static final mz_view_frame:I = 0x10203a8
+.field public static final mz_subTitle:I = #android:id@mz_subTitle#t
 
-.field public static final name:I = 0x1020448
+.field public static final mz_view_frame:I = #android:id@mz_view_frame#t
 
-.field public static final new_app_action:I = 0x10202cd
+.field public static final name:I = #android:id@name#t
 
-.field public static final new_app_description:I = 0x10202ce
+.field public static final new_app_action:I = #android:id@new_app_action#t
 
-.field public static final new_app_icon:I = 0x10202cc
+.field public static final new_app_description:I = #android:id@new_app_description#t
 
-.field public static final next:I = 0x102036e
+.field public static final new_app_icon:I = #android:id@new_app_icon#t
 
-.field public static final next_button:I = 0x10203ab
+.field public static final next:I = #android:id@next#t
 
-.field public static final nine:I = 0x102043b
+.field public static final next_button:I = #android:id@next_button#t
 
-.field public static final no_applications_message:I = 0x10203dc
+.field public static final nine:I = #android:id@nine#t
 
-.field public static final no_permissions:I = 0x1020296
+.field public static final no_applications_message:I = #android:id@no_applications_message#t
 
-.field public static final numberpicker_input:I = 0x10203cf
+.field public static final no_permissions:I = #android:id@no_permissions#t
 
-.field public static final ok:I = 0x1020258
+.field public static final numberpicker_input:I = #android:id@numberpicker_input#t
 
-.field public static final old_app_action:I = 0x10202c9
+.field public static final ok:I = #android:id@ok#t
 
-.field public static final old_app_description:I = 0x10202ca
+.field public static final old_app_action:I = #android:id@old_app_action#t
 
-.field public static final old_app_icon:I = 0x10202c8
+.field public static final old_app_description:I = #android:id@old_app_description#t
 
-.field public static final one:I = 0x1020433
+.field public static final old_app_icon:I = #android:id@old_app_icon#t
 
-.field public static final option1:I = 0x10202ad
+.field public static final one:I = #android:id@one#t
 
-.field public static final option2:I = 0x10202ae
+.field public static final option1:I = #android:id@option1#t
 
-.field public static final option3:I = 0x10202af
+.field public static final option2:I = #android:id@option2#t
 
-.field public static final original_app_icon:I = 0x1020360
+.field public static final option3:I = #android:id@option3#t
 
-.field public static final original_message:I = 0x1020361
+.field public static final original_app_icon:I = #android:id@original_app_icon#t
 
-.field public static final overflow_divider:I = 0x10203c4
+.field public static final original_message:I = #android:id@original_message#t
 
-.field public static final overlay_display_window_texture:I = 0x10203d1
+.field public static final overflow_divider:I = #android:id@overflow_divider#t
 
-.field public static final overlay_display_window_title:I = 0x10203d2
+.field public static final overlay_display_window_texture:I = #android:id@overlay_display_window_texture#t
 
-.field public static final owner_info:I = 0x1020345
+.field public static final overlay_display_window_title:I = #android:id@overlay_display_window_title#t
 
-.field public static final package_label:I = 0x10203d4
+.field public static final owner_info:I = #android:id@owner_info#t
 
-.field public static final packages_list:I = 0x10202be
+.field public static final package_label:I = #android:id@package_label#t
 
-.field public static final parentPanel:I = 0x102027c
+.field public static final packages_list:I = #android:id@packages_list#t
 
-.field public static final password:I = 0x1020255
+.field public static final parentPanel:I = #android:id@parentPanel#t
 
-.field public static final passwordEntry:I = 0x10202f3
+.field public static final password:I = #android:id@password#t
 
-.field public static final paste:I = 0x1020022
+.field public static final passwordEntry:I = #android:id@passwordEntry#t
 
-.field public static final pause:I = 0x102036d
+.field public static final paste:I = #android:id@paste#t
 
-.field public static final perm_icon:I = 0x1020291
+.field public static final pause:I = #android:id@pause#t
 
-.field public static final perm_name:I = 0x1020292
+.field public static final perm_icon:I = #android:id@perm_icon#t
 
-.field public static final permission_dot:I = 0x102028f
+.field public static final perm_name:I = #android:id@perm_name#t
 
-.field public static final permission_group:I = 0x1020290
+.field public static final permission_dot:I = #android:id@permission_dot#t
 
-.field public static final permission_list:I = 0x1020295
+.field public static final permission_group:I = #android:id@permission_group#t
 
-.field public static final perms_list:I = 0x1020297
+.field public static final permission_list:I = #android:id@permission_list#t
 
-.field public static final pickers:I = 0x10202a3
+.field public static final perms_list:I = #android:id@perms_list#t
 
-.field public static final pinDel:I = 0x102032e
+.field public static final pickers:I = #android:id@pickers#t
 
-.field public static final pinDisplay:I = 0x102033c
+.field public static final pinDel:I = #android:id@pinDel#t
 
-.field public static final pinEntry:I = 0x10202f8
+.field public static final pinDisplay:I = #android:id@pinDisplay#t
 
-.field public static final placeholder:I = 0x102040b
+.field public static final pinEntry:I = #android:id@pinEntry#t
 
-.field public static final prefs:I = 0x10203a7
+.field public static final placeholder:I = #android:id@placeholder#t
 
-.field public static final prefs_frame:I = 0x10203a6
+.field public static final prefs:I = #android:id@prefs#t
 
-.field public static final prev:I = 0x102036c
+.field public static final prefs_frame:I = #android:id@prefs_frame#t
 
-.field public static final primary:I = 0x102000c
+.field public static final prev:I = #android:id@prev#t
 
-.field public static final progress:I = 0x102000d
+.field public static final primary:I = #android:id@primary#t
 
-.field public static final progressContainer:I = 0x1020362
+.field public static final progress:I = #android:id@progress#t
 
-.field public static final progress_circular:I = 0x10203ec
+.field public static final progressContainer:I = #android:id@progressContainer#t
 
-.field public static final progress_horizontal:I = 0x10203ed
+.field public static final progress_circular:I = #android:id@progress_circular#t
 
-.field public static final progress_number:I = 0x1020289
+.field public static final progress_horizontal:I = #android:id@progress_horizontal#t
 
-.field public static final progress_percent:I = 0x1020288
+.field public static final progress_number:I = #android:id@progress_number#t
 
-.field public static final pukDel:I = 0x1020344
+.field public static final progress_percent:I = #android:id@progress_percent#t
 
-.field public static final pukDisplay:I = 0x1020343
+.field public static final pukDel:I = #android:id@pukDel#t
 
-.field public static final push_dlg_button1:I = 0x10203db
+.field public static final pukDisplay:I = #android:id@pukDisplay#t
 
-.field public static final push_dlg_button2:I = 0x10203da
+.field public static final push_dlg_button1:I = #android:id@push_dlg_button1#t
 
-.field public static final push_dlg_message:I = 0x10203d9
+.field public static final push_dlg_button2:I = #android:id@push_dlg_button2#t
 
-.field public static final radio:I = 0x1020366
+.field public static final push_dlg_message:I = #android:id@push_dlg_message#t
 
-.field public static final reask_hint:I = 0x102028e
+.field public static final radio:I = #android:id@radio#t
 
-.field public static final reboot_linear:I = 0x10202b2
+.field public static final reask_hint:I = #android:id@reask_hint#t
 
-.field public static final reboot_txt:I = 0x10202b3
+.field public static final reboot_linear:I = #android:id@reboot_linear#t
 
-.field public static final replace_app_icon:I = 0x102035e
+.field public static final reboot_txt:I = #android:id@reboot_txt#t
 
-.field public static final replace_message:I = 0x102035f
+.field public static final replace_app_icon:I = #android:id@replace_app_icon#t
 
-.field public static final resolver_grid:I = 0x10203e4
+.field public static final replace_message:I = #android:id@replace_message#t
 
-.field public static final return_button:I = 0x102042c
+.field public static final resolver_grid:I = #android:id@resolver_grid#t
 
-.field public static final rew:I = 0x1020370
+.field public static final return_button:I = #android:id@return_button#t
 
-.field public static final rightSpacer:I = 0x1020283
+.field public static final rew:I = #android:id@rew#t
 
-.field public static final right_button:I = 0x102042e
+.field public static final rightSpacer:I = #android:id@rightSpacer#t
 
-.field public static final right_icon:I = 0x1020245
+.field public static final right_button:I = #android:id@right_button#t
 
-.field public static final rowTypeId:I = 0x102024b
+.field public static final right_icon:I = #android:id@right_icon#t
 
-.field public static final scrollView:I = 0x1020285
+.field public static final rowTypeId:I = #android:id@rowTypeId#t
 
-.field public static final scrollView_n:I = 0x102037e
+.field public static final scrollView:I = #android:id@scrollView#t
 
-.field public static final search_app_icon:I = 0x10203f6
+.field public static final scrollView_n:I = #android:id@scrollView_n#t
 
-.field public static final search_badge:I = 0x10203f9
+.field public static final search_app_icon:I = #android:id@search_app_icon#t
 
-.field public static final search_bar:I = 0x10203f5
+.field public static final search_badge:I = #android:id@search_badge#t
 
-.field public static final search_button:I = 0x10203fa
+.field public static final search_bar:I = #android:id@search_bar#t
 
-.field public static final search_close_btn:I = 0x10203ff
+.field public static final search_button:I = #android:id@search_button#t
 
-.field public static final search_edit_frame:I = 0x10203fb
+.field public static final search_close_btn:I = #android:id@search_close_btn#t
 
-.field public static final search_go_btn:I = 0x1020401
+.field public static final search_edit_frame:I = #android:id@search_edit_frame#t
 
-.field public static final search_mag_icon:I = 0x10203fc
+.field public static final search_go_btn:I = #android:id@search_go_btn#t
 
-.field public static final search_plate:I = 0x10203fd
+.field public static final search_mag_icon:I = #android:id@search_mag_icon#t
 
-.field public static final search_src_text:I = 0x10203fe
+.field public static final search_plate:I = #android:id@search_plate#t
 
-.field public static final search_view:I = 0x10203f7
+.field public static final search_src_text:I = #android:id@search_src_text#t
 
-.field public static final search_voice_btn:I = 0x1020402
+.field public static final search_view:I = #android:id@search_view#t
 
-.field public static final secondaryProgress:I = 0x102000f
+.field public static final search_voice_btn:I = #android:id@search_voice_btn#t
 
-.field public static final seekbar:I = 0x10203ac
+.field public static final secondaryProgress:I = #android:id@secondaryProgress#t
 
-.field public static final selectAll:I = 0x102001f
+.field public static final seekbar:I = #android:id@seekbar#t
 
-.field public static final selectTextMode:I = 0x102002d
+.field public static final selectAll:I = #android:id@selectAll#t
 
-.field public static final select_all:I = 0x1020452
+.field public static final selectTextMode:I = #android:id@selectTextMode#t
 
-.field public static final selectedIcon:I = 0x102000e
+.field public static final select_all:I = #android:id@select_all#t
 
-.field public static final serial_number:I = 0x1020415
+.field public static final selectedIcon:I = #android:id@selectedIcon#t
 
-.field public static final seven:I = 0x1020439
+.field public static final serial_number:I = #android:id@serial_number#t
 
-.field public static final sha1_fingerprint:I = 0x1020425
+.field public static final seven:I = #android:id@seven#t
 
-.field public static final sha256_fingerprint:I = 0x1020423
+.field public static final sha1_fingerprint:I = #android:id@sha1_fingerprint#t
 
-.field public static final share:I = 0x1020453
+.field public static final sha256_fingerprint:I = #android:id@sha256_fingerprint#t
 
-.field public static final shortcut:I = 0x1020365
+.field public static final share:I = #android:id@share#t
 
-.field public static final six:I = 0x1020438
+.field public static final shortcut:I = #android:id@shortcut#t
 
-.field public static final skip_button:I = 0x10203aa
+.field public static final six:I = #android:id@six#t
 
-.field public static final slide_content:I = 0x102031d
+.field public static final skip_button:I = #android:id@skip_button#t
 
-.field public static final slider_group:I = 0x10203bc
+.field public static final slide_content:I = #android:id@slide_content#t
 
-.field public static final sliding_layout:I = 0x10202ec
+.field public static final slider_group:I = #android:id@slider_group#t
 
-.field public static final sms_short_code_confirm_message:I = 0x1020404
+.field public static final sliding_layout:I = #android:id@sliding_layout#t
 
-.field public static final sms_short_code_detail_layout:I = 0x1020405
+.field public static final sms_short_code_confirm_message:I = #android:id@sms_short_code_confirm_message#t
 
-.field public static final sms_short_code_detail_message:I = 0x1020407
+.field public static final sms_short_code_detail_layout:I = #android:id@sms_short_code_detail_layout#t
 
-.field public static final sms_short_code_remember_choice_checkbox:I = 0x1020408
+.field public static final sms_short_code_detail_message:I = #android:id@sms_short_code_detail_message#t
 
-.field public static final sms_short_code_remember_undo_instruction:I = 0x102040a
+.field public static final sms_short_code_remember_choice_checkbox:I = #android:id@sms_short_code_remember_choice_checkbox#t
 
-.field public static final special:I = 0x1020256
+.field public static final sms_short_code_remember_undo_instruction:I = #android:id@sms_short_code_remember_undo_instruction#t
 
-.field public static final split_action_bar:I = 0x10203f1
+.field public static final special:I = #android:id@special#t
 
-.field public static final startSelectingText:I = 0x1020028
+.field public static final split_action_bar:I = #android:id@split_action_bar#t
 
-.field public static final status:I = 0x10202ac
+.field public static final startSelectingText:I = #android:id@startSelectingText#t
 
-.field public static final status1:I = 0x102032c
+.field public static final status:I = #android:id@status#t
 
-.field public static final status_bar_latest_event_content:I = 0x1020392
+.field public static final status1:I = #android:id@status1#t
 
-.field public static final stopSelectingText:I = 0x1020029
+.field public static final status_bar_latest_event_content:I = #android:id@status_bar_latest_event_content#t
 
-.field public static final stream_icon:I = 0x10203be
+.field public static final stopSelectingText:I = #android:id@stopSelectingText#t
 
-.field public static final subTitle:I = 0x102037c
+.field public static final stream_icon:I = #android:id@stream_icon#t
 
-.field public static final submit_area:I = 0x1020400
+.field public static final subTitle:I = #android:id@subTitle#t
 
-.field public static final summary:I = 0x1020010
+.field public static final submit_area:I = #android:id@submit_area#t
 
-.field public static final switchInputMethod:I = 0x1020024
+.field public static final summary:I = #android:id@summary#t
 
-.field public static final switchWidget:I = 0x10203d8
+.field public static final switchInputMethod:I = #android:id@switchInputMethod#t
 
-.field public static final switch_ime_button:I = 0x10202f4
+.field public static final switchWidget:I = #android:id@switchWidget#t
 
-.field public static final switch_new:I = 0x10202cb
+.field public static final switch_ime_button:I = #android:id@switch_ime_button#t
 
-.field public static final switch_old:I = 0x10202c7
+.field public static final switch_new:I = #android:id@switch_new#t
 
-.field public static final system_update_text:I = 0x102043f
+.field public static final switch_old:I = #android:id@switch_old#t
 
-.field public static final tabcontent:I = 0x1020011
+.field public static final system_update_text:I = #android:id@system_update_text#t
 
-.field public static final tabhost:I = 0x1020012
+.field public static final tabcontent:I = #android:id@tabcontent#t
 
-.field public static final tabs:I = 0x1020013
+.field public static final tabhost:I = #android:id@tabhost#t
 
-.field public static final text:I = 0x1020046
+.field public static final tabs:I = #android:id@tabs#t
 
-.field public static final text1:I = 0x1020014
+.field public static final text:I = #android:id@text#t
 
-.field public static final text2:I = 0x1020015
+.field public static final text1:I = #android:id@text1#t
 
-.field public static final text_button:I = 0x102042a
+.field public static final text2:I = #android:id@text2#t
 
-.field public static final three:I = 0x1020435
+.field public static final text_button:I = #android:id@text_button#t
 
-.field public static final time:I = 0x1020064
+.field public static final three:I = #android:id@three#t
 
-.field public static final timeDisplayBackground:I = 0x1020329
+.field public static final time:I = #android:id@time#t
 
-.field public static final timeDisplayForeground:I = 0x102032a
+.field public static final timeDisplayBackground:I = #android:id@timeDisplayBackground#t
 
-.field public static final timePicker:I = 0x10203b8
+.field public static final timeDisplayForeground:I = #android:id@timeDisplayForeground#t
 
-.field public static final time_current:I = 0x1020372
+.field public static final timePicker:I = #android:id@timePicker#t
 
-.field public static final tips:I = 0x1020333
+.field public static final time_current:I = #android:id@time_current#t
 
-.field public static final title:I = 0x1020016
+.field public static final tips:I = #android:id@tips#t
 
-.field public static final titleDivider:I = 0x1020280
+.field public static final title:I = #android:id@title#t
 
-.field public static final titleDividerTop:I = 0x1020287
+.field public static final titleDivider:I = #android:id@titleDivider#t
 
-.field public static final title_container:I = 0x1020246
+.field public static final titleDividerTop:I = #android:id@titleDividerTop#t
 
-.field public static final title_template:I = 0x102027e
+.field public static final title_container:I = #android:id@title_container#t
 
-.field public static final to_common:I = 0x102040f
+.field public static final title_template:I = #android:id@title_template#t
 
-.field public static final to_org:I = 0x1020411
+.field public static final to_common:I = #android:id@to_common#t
 
-.field public static final to_org_unit:I = 0x1020413
+.field public static final to_org:I = #android:id@to_org#t
 
-.field public static final toggle:I = 0x1020017
+.field public static final to_org_unit:I = #android:id@to_org_unit#t
 
-.field public static final topDisplayGroup:I = 0x102033e
+.field public static final toggle:I = #android:id@toggle#t
 
-.field public static final topHeader:I = 0x102030d
+.field public static final topDisplayGroup:I = #android:id@topDisplayGroup#t
 
-.field public static final topPanel:I = 0x102027d
+.field public static final topHeader:I = #android:id@topHeader#t
 
-.field public static final top_action_bar:I = 0x10203f4
+.field public static final topPanel:I = #android:id@topPanel#t
 
-.field public static final transport:I = 0x102032f
+.field public static final top_action_bar:I = #android:id@top_action_bar#t
 
-.field public static final transport_bg_protect:I = 0x1020331
+.field public static final transport:I = #android:id@transport#t
 
-.field public static final two:I = 0x1020434
+.field public static final transport_bg_protect:I = #android:id@transport_bg_protect#t
 
-.field public static final unlockRoot:I = 0x1020305
+.field public static final two:I = #android:id@two#t
 
-.field public static final unlock_background:I = 0x102031e
+.field public static final unlockRoot:I = #android:id@unlockRoot#t
 
-.field public static final unlock_background_shadow:I = 0x102031f
+.field public static final unlock_background:I = #android:id@unlock_background#t
 
-.field public static final unlock_divider:I = 0x1020321
+.field public static final unlock_background_shadow:I = #android:id@unlock_background_shadow#t
 
-.field public static final unlock_icon:I = 0x1020320
+.field public static final unlock_divider:I = #android:id@unlock_divider#t
 
-.field public static final unlock_snapshot:I = 0x1020327
+.field public static final unlock_icon:I = #android:id@unlock_icon#t
 
-.field public static final unlock_widget:I = 0x1020346
+.field public static final unlock_snapshot:I = #android:id@unlock_snapshot#t
 
-.field public static final unmount_button:I = 0x1020442
+.field public static final unlock_widget:I = #android:id@unlock_widget#t
 
-.field public static final up:I = 0x102024c
+.field public static final unmount_button:I = #android:id@unmount_button#t
 
-.field public static final value:I = 0x10202d7
+.field public static final up:I = #android:id@up#t
 
-.field public static final vibrator_img:I = 0x10202b8
+.field public static final value:I = #android:id@value#t
 
-.field public static final vibrator_img_light:I = 0x10202b9
+.field public static final vibrator_img:I = #android:id@vibrator_img#t
 
-.field public static final vibrator_linear:I = 0x10202b7
+.field public static final vibrator_img_light:I = #android:id@vibrator_img_light#t
 
-.field public static final view_flipper:I = 0x10202eb
+.field public static final vibrator_linear:I = #android:id@vibrator_linear#t
 
-.field public static final visible_panel:I = 0x10203bb
+.field public static final view_flipper:I = #android:id@view_flipper#t
 
-.field public static final volume_icon:I = 0x1020374
+.field public static final visible_panel:I = #android:id@visible_panel#t
 
-.field public static final volume_img:I = 0x10202b5
+.field public static final volume_icon:I = #android:id@volume_icon#t
 
-.field public static final volume_img_light:I = 0x10202b6
+.field public static final volume_img:I = #android:id@volume_img#t
 
-.field public static final volume_linear:I = 0x10202b4
+.field public static final volume_img_light:I = #android:id@volume_img_light#t
 
-.field public static final volume_seekbar:I = 0x10203bf
+.field public static final volume_linear:I = #android:id@volume_linear#t
 
-.field public static final volume_slider:I = 0x1020375
+.field public static final volume_seekbar:I = #android:id@volume_seekbar#t
 
-.field public static final weather_icon:I = 0x102034e
+.field public static final volume_slider:I = #android:id@volume_slider#t
 
-.field public static final websearch:I = 0x1020455
+.field public static final weather_icon:I = #android:id@weather_icon#t
 
-.field public static final widget_frame:I = 0x1020018
+.field public static final websearch:I = #android:id@websearch#t
 
-.field public static final wifi_p2p_wps_pin:I = 0x1020447
+.field public static final widget_frame:I = #android:id@widget_frame#t
 
-.field public static final year:I = 0x10202a6
+.field public static final wifi_p2p_wps_pin:I = #android:id@wifi_p2p_wps_pin#t
 
-.field public static final zero:I = 0x102043c
+.field public static final year:I = #android:id@year#t
 
-.field public static final zoomControls:I = 0x102044b
+.field public static final zero:I = #android:id@zero#t
 
-.field public static final zoomIn:I = 0x102044d
+.field public static final zoomControls:I = #android:id@zoomControls#t
 
-.field public static final zoomMagnify:I = 0x102044e
+.field public static final zoomIn:I = #android:id@zoomIn#t
 
-.field public static final zoomOut:I = 0x102044c
+.field public static final zoomMagnify:I = #android:id@zoomMagnify#t
+
+.field public static final zoomOut:I = #android:id@zoomOut#t
 
 
 # direct methods

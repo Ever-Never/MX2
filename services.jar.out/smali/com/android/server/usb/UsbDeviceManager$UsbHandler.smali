@@ -211,7 +211,7 @@
 
     move-result v5
 
-    if-lez v5, :cond_2
+    if-lez v5, :cond_1
 
     .line 400
     const/4 v5, 0x0
@@ -232,17 +232,13 @@
     invoke-direct {p0, v5}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->setAdbEnabled(Z)V
 
     .line 406
+    .end local v2           #enable:C
     :cond_1
     :goto_0
-    const-string v5, "persist.service.adb.enable"
 
-    const-string v6, ""
 
-    invoke-static {v5, v6}, Landroid/os/SystemProperties;->set(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 410
-    .end local v2           #enable:C
-    :cond_2
     #getter for: Lcom/android/server/usb/UsbDeviceManager;->mContentResolver:Landroid/content/ContentResolver;
     invoke-static {p1}, Lcom/android/server/usb/UsbDeviceManager;->access$000(Lcom/android/server/usb/UsbDeviceManager;)Landroid/content/ContentResolver;
 
@@ -1684,7 +1680,7 @@
 
     const-string v1, "com.android.settings"
 
-    const-string v3, "com.android.settings.Settings$StorageSettingsActivity"
+    const-string v3, "com.android.settings.UsbSettings"
 
     invoke-direct {v0, v1, v3}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 

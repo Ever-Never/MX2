@@ -394,7 +394,8 @@
     .locals 1
 
     .prologue
-    .line 4084
+    invoke-static {}, Landroid/widget/Editor$BaiduEditorInjector;->dismiss()V
+
     iget-object v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mStartHandle:Landroid/widget/Editor$SelectionStartHandleView;
 
     if-eqz v0, :cond_0
@@ -403,7 +404,6 @@
 
     invoke-virtual {v0}, Landroid/widget/Editor$HandleView;->hide()V
 
-    .line 4085
     :cond_0
     iget-object v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mEndHandle:Landroid/widget/Editor$SelectionEndHandleView;
 
@@ -413,7 +413,6 @@
 
     invoke-virtual {v0}, Landroid/widget/Editor$HandleView;->hide()V
 
-    .line 4086
     :cond_1
     return-void
 .end method
@@ -422,7 +421,6 @@
     .locals 1
 
     .prologue
-    .line 4258
     iget-object v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
 
     #getter for: Landroid/widget/Editor;->mIsInDragSelectionMode:Z
@@ -453,7 +451,6 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 4308
     iget-object v1, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mStartHandle:Landroid/widget/Editor$SelectionStartHandleView;
 
     if-eqz v1, :cond_1
@@ -466,12 +463,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 4316
     :cond_0
     :goto_0
     return v0
 
-    .line 4312
     :cond_1
     iget-object v1, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mEndHandle:Landroid/widget/Editor$SelectionEndHandleView;
 
@@ -485,7 +480,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4316
     :cond_2
     const/4 v0, 0x0
 
@@ -496,7 +490,7 @@
     .locals 1
 
     .prologue
-    .line 4289
+    .line 4084
     iget-object v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mStartHandle:Landroid/widget/Editor$SelectionStartHandleView;
 
     if-eqz v0, :cond_0
@@ -514,6 +508,7 @@
     :goto_0
     return v0
 
+    .line 4085
     :cond_0
     const/4 v0, 0x0
 
@@ -526,7 +521,6 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 4320
     iget-object v1, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mStartHandle:Landroid/widget/Editor$SelectionStartHandleView;
 
     if-eqz v1, :cond_1
@@ -539,12 +533,11 @@
 
     if-eqz v1, :cond_1
 
-    .line 4328
     :cond_0
     :goto_0
     return v0
 
-    .line 4324
+    .line 4086
     :cond_1
     iget-object v1, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mEndHandle:Landroid/widget/Editor$SelectionEndHandleView;
 
@@ -558,7 +551,6 @@
 
     if-nez v1, :cond_0
 
-    .line 4328
     :cond_2
     const/4 v0, 0x0
 
@@ -569,7 +561,6 @@
     .locals 2
 
     .prologue
-    .line 4300
     iget-object v1, p0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
 
     #getter for: Landroid/widget/Editor;->mTextView:Landroid/widget/TextView;
@@ -581,11 +572,9 @@
 
     move-result-object v0
 
-    .line 4301
     .local v0, observer:Landroid/view/ViewTreeObserver;
     invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnTouchModeChangeListener(Landroid/view/ViewTreeObserver$OnTouchModeChangeListener;)V
 
-    .line 4303
     iget-object v1, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mStartHandle:Landroid/widget/Editor$SelectionStartHandleView;
 
     if-eqz v1, :cond_0
@@ -594,7 +583,6 @@
 
     invoke-virtual {v1}, Landroid/widget/Editor$HandleView;->onDetached()V
 
-    .line 4304
     :cond_0
     iget-object v1, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mEndHandle:Landroid/widget/Editor$SelectionEndHandleView;
 
@@ -604,7 +592,6 @@
 
     invoke-virtual {v1}, Landroid/widget/Editor$HandleView;->onDetached()V
 
-    .line 4305
     :cond_1
     return-void
 .end method
@@ -614,32 +601,27 @@
     .parameter "event"
 
     .prologue
-    .line 4096
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v28
 
     packed-switch v28, :pswitch_data_0
 
-    .line 4251
     :cond_0
     :goto_0
     :pswitch_0
     return-void
 
-    .line 4098
     :pswitch_1
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v26
 
-    .line 4099
     .local v26, x:F
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v27
 
-    .line 4102
     .local v27, y:F
     move-object/from16 v0, p0
 
@@ -674,7 +656,6 @@
 
     iput v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mMinTouchOffset:I
 
-    .line 4105
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->mGestureStayedInTapRegion:Z
@@ -683,7 +664,6 @@
 
     if-eqz v28, :cond_1
 
-    .line 4106
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v28
@@ -696,7 +676,6 @@
 
     sub-long v12, v28, v30
 
-    .line 4107
     .local v12, duration:J
     invoke-static {}, Landroid/view/ViewConfiguration;->getDoubleTapTimeout()I
 
@@ -712,7 +691,6 @@
 
     if-gtz v28, :cond_1
 
-    .line 4108
     move-object/from16 v0, p0
 
     iget v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->mDownPositionX:F
@@ -721,7 +699,6 @@
 
     sub-float v7, v26, v28
 
-    .line 4109
     .local v7, deltaX:F
     move-object/from16 v0, p0
 
@@ -731,7 +708,6 @@
 
     sub-float v8, v27, v28
 
-    .line 4110
     .local v8, deltaY:F
     mul-float v28, v7, v7
 
@@ -739,7 +715,6 @@
 
     add-float v9, v28, v29
 
-    .line 4112
     .local v9, distanceSquared:F
     move-object/from16 v0, p0
 
@@ -760,13 +735,11 @@
 
     move-result-object v25
 
-    .line 4114
     .local v25, viewConfiguration:Landroid/view/ViewConfiguration;
     invoke-virtual/range {v25 .. v25}, Landroid/view/ViewConfiguration;->getScaledDoubleTapSlop()I
 
     move-result v10
 
-    .line 4115
     .local v10, doubleTapSlop:I
     mul-int v28, v10, v10
 
@@ -782,7 +755,6 @@
 
     const/16 v21, 0x1
 
-    .line 4117
     .local v21, stayedInArea:Z
     :goto_1
     if-eqz v21, :cond_1
@@ -806,7 +778,6 @@
 
     if-eqz v28, :cond_1
 
-    .line 4118
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -815,7 +786,6 @@
 
     invoke-virtual/range {v28 .. v28}, Landroid/widget/Editor;->startSelectionActionMode()Z
 
-    .line 4119
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -830,7 +800,6 @@
 
     iput-boolean v0, v1, Landroid/widget/Editor;->mDiscardNextActionUp:Z
 
-    .line 4124
     .end local v7           #deltaX:F
     .end local v8           #deltaY:F
     .end local v9           #distanceSquared:F
@@ -845,14 +814,12 @@
 
     iput v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mDownPositionX:F
 
-    .line 4125
     move/from16 v0, v27
 
     move-object/from16 v1, p0
 
     iput v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mDownPositionY:F
 
-    .line 4126
     const/16 v28, 0x1
 
     move/from16 v0, v28
@@ -861,7 +828,6 @@
 
     iput-boolean v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mGestureStayedInTapRegion:Z
 
-    .line 4128
     move/from16 v0, v26
 
     float-to-int v0, v0
@@ -874,7 +840,6 @@
 
     iput v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mDownMotionX:I
 
-    .line 4129
     move/from16 v0, v27
 
     float-to-int v0, v0
@@ -887,7 +852,6 @@
 
     iput v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mDownMotionY:I
 
-    .line 4130
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -901,7 +865,6 @@
     #setter for: Landroid/widget/Editor;->mLastScrollTime:J
     invoke-static/range {v28 .. v30}, Landroid/widget/Editor;->access$2502(Landroid/widget/Editor;J)J
 
-    .line 4137
     const/16 v28, 0x0
 
     move/from16 v0, v28
@@ -910,7 +873,6 @@
 
     iput-boolean v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mCanDragSelection:Z
 
-    .line 4138
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -928,7 +890,6 @@
 
     if-nez v28, :cond_3
 
-    .line 4139
     const/16 v28, 0x0
 
     move/from16 v0, v28
@@ -939,7 +900,6 @@
 
     goto/16 :goto_0
 
-    .line 4115
     .restart local v7       #deltaX:F
     .restart local v8       #deltaY:F
     .restart local v9       #distanceSquared:F
@@ -951,7 +911,6 @@
 
     goto/16 :goto_1
 
-    .line 4140
     .end local v7           #deltaX:F
     .end local v8           #deltaY:F
     .end local v9           #distanceSquared:F
@@ -972,7 +931,6 @@
 
     if-nez v28, :cond_4
 
-    .line 4141
     const/16 v28, 0x0
 
     move/from16 v0, v28
@@ -983,7 +941,6 @@
 
     goto/16 :goto_0
 
-    .line 4142
     :cond_4
     move-object/from16 v0, p0
 
@@ -1002,7 +959,6 @@
 
     if-nez v28, :cond_5
 
-    .line 4143
     const/16 v28, 0x1
 
     move/from16 v0, v28
@@ -1013,7 +969,6 @@
 
     goto/16 :goto_0
 
-    .line 4144
     :cond_5
     move-object/from16 v0, p0
 
@@ -1032,7 +987,6 @@
 
     if-eqz v28, :cond_0
 
-    .line 4145
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1048,7 +1002,6 @@
 
     move-result-object v15
 
-    .line 4146
     .local v15, layout:Landroid/text/Layout;
     const/16 v28, 0x0
 
@@ -1074,7 +1027,6 @@
 
     move/from16 v16, v0
 
-    .line 4147
     .local v16, lineWidth:I
     move-object/from16 v0, p0
 
@@ -1125,7 +1077,6 @@
 
     sub-int v24, v28, v29
 
-    .line 4148
     .local v24, textWidth:I
     move/from16 v0, v16
 
@@ -1133,7 +1084,6 @@
 
     if-gt v0, v1, :cond_6
 
-    .line 4149
     const/16 v28, 0x1
 
     move/from16 v0, v28
@@ -1144,7 +1094,6 @@
 
     goto/16 :goto_0
 
-    .line 4151
     :cond_6
     const/16 v28, 0x0
 
@@ -1156,7 +1105,6 @@
 
     goto/16 :goto_0
 
-    .line 4160
     .end local v15           #layout:Landroid/text/Layout;
     .end local v16           #lineWidth:I
     .end local v24           #textWidth:I
@@ -1190,12 +1138,10 @@
 
     if-eqz v28, :cond_0
 
-    .line 4162
     invoke-direct/range {p0 .. p1}, Landroid/widget/Editor$SelectionModifierCursorController;->updateMinAndMaxOffsets(Landroid/view/MotionEvent;)V
 
     goto/16 :goto_0
 
-    .line 4167
     :pswitch_3
     move-object/from16 v0, p0
 
@@ -1205,7 +1151,6 @@
 
     if-eqz v28, :cond_7
 
-    .line 4168
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v28
@@ -1218,7 +1163,6 @@
 
     sub-float v7, v28, v29
 
-    .line 4169
     .restart local v7       #deltaX:F
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getY()F
 
@@ -1232,7 +1176,6 @@
 
     sub-float v8, v28, v29
 
-    .line 4170
     .restart local v8       #deltaY:F
     mul-float v28, v7, v7
 
@@ -1240,7 +1183,6 @@
 
     add-float v9, v28, v29
 
-    .line 4172
     .restart local v9       #distanceSquared:F
     move-object/from16 v0, p0
 
@@ -1261,13 +1203,11 @@
 
     move-result-object v25
 
-    .line 4174
     .restart local v25       #viewConfiguration:Landroid/view/ViewConfiguration;
     invoke-virtual/range {v25 .. v25}, Landroid/view/ViewConfiguration;->getScaledDoubleTapTouchSlop()I
 
     move-result v11
 
-    .line 4176
     .local v11, doubleTapTouchSlop:I
     mul-int v28, v11, v11
 
@@ -1281,7 +1221,6 @@
 
     if-lez v28, :cond_7
 
-    .line 4177
     const/16 v28, 0x0
 
     move/from16 v0, v28
@@ -1290,7 +1229,6 @@
 
     iput-boolean v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mGestureStayedInTapRegion:Z
 
-    .line 4181
     .end local v7           #deltaX:F
     .end local v8           #deltaY:F
     .end local v9           #distanceSquared:F
@@ -1307,7 +1245,6 @@
 
     move/from16 v17, v0
 
-    .line 4182
     .local v17, motionX:I
     invoke-virtual/range {p1 .. p1}, Landroid/view/MotionEvent;->getY()F
 
@@ -1319,7 +1256,6 @@
 
     move/from16 v18, v0
 
-    .line 4183
     .local v18, motionY:I
     move-object/from16 v0, p0
 
@@ -1348,15 +1284,12 @@
 
     move-result v19
 
-    .line 4184
     .local v19, offset:I
     const/16 v20, 0x0
 
-    .line 4185
     .local v20, start:I
     const/4 v14, 0x0
 
-    .line 4186
     .local v14, end:I
     move-object/from16 v0, p0
 
@@ -1401,7 +1334,6 @@
 
     if-nez v28, :cond_a
 
-    .line 4188
     move-object/from16 v0, p0
 
     iget v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->mDownMotionX:I
@@ -1418,7 +1350,6 @@
 
     int-to-double v3, v0
 
-    .line 4189
     .local v3, delateX:D
     move-object/from16 v0, p0
 
@@ -1436,11 +1367,9 @@
 
     int-to-double v5, v0
 
-    .line 4190
     .local v5, delateY:D
     const-wide/16 v22, 0x0
 
-    .line 4194
     .local v22, tan:D
     const-wide/16 v28, 0x0
 
@@ -1448,14 +1377,12 @@
 
     if-lez v28, :cond_8
 
-    .line 4195
     div-double v28, v5, v3
 
     invoke-static/range {v28 .. v29}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v22
 
-    .line 4196
     :cond_8
     move-object/from16 v0, p0
 
@@ -1487,7 +1414,6 @@
 
     if-gez v28, :cond_d
 
-    .line 4197
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1502,7 +1428,6 @@
 
     iput-boolean v0, v1, Landroid/widget/Editor;->mDiscardNextActionUp:Z
 
-    .line 4198
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1514,7 +1439,6 @@
     #setter for: Landroid/widget/Editor;->mIsInDragSelectionMode:Z
     invoke-static/range {v28 .. v29}, Landroid/widget/Editor;->access$3202(Landroid/widget/Editor;Z)Z
 
-    .line 4199
     const/16 v28, 0x1
 
     move/from16 v0, v28
@@ -1523,7 +1447,6 @@
 
     iput-boolean v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mIsMoved:Z
 
-    .line 4200
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1541,7 +1464,6 @@
 
     if-eqz v28, :cond_9
 
-    .line 4201
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1561,7 +1483,6 @@
 
     invoke-interface/range {v28 .. v29}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
-    .line 4202
     :cond_9
     move-object/from16 v0, p0
 
@@ -1580,7 +1501,6 @@
 
     if-nez v28, :cond_a
 
-    .line 4203
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1594,7 +1514,6 @@
 
     invoke-virtual/range {v28 .. v28}, Landroid/view/View;->requestFocus()Z
 
-    .line 4211
     .end local v3           #delateX:D
     .end local v5           #delateY:D
     .end local v22           #tan:D
@@ -1613,7 +1532,6 @@
 
     if-eqz v28, :cond_0
 
-    .line 4212
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1622,7 +1540,6 @@
 
     invoke-virtual/range {v28 .. v28}, Landroid/widget/Editor;->stopSelectionActionMode()V
 
-    .line 4214
     move-object/from16 v0, p0
 
     iget v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->mMinTouchOffset:I
@@ -1635,17 +1552,14 @@
 
     if-ge v0, v1, :cond_e
 
-    .line 4215
     move-object/from16 v0, p0
 
     iget v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->mMinTouchOffset:I
 
     move/from16 v20, v0
 
-    .line 4216
     move/from16 v14, v19
 
-    .line 4217
     const/16 v28, 0x0
 
     move/from16 v0, v28
@@ -1654,7 +1568,6 @@
 
     iput-boolean v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mIsDragSelectionToTop:Z
 
-    .line 4224
     :goto_3
     if-ltz v20, :cond_0
 
@@ -1700,7 +1613,6 @@
 
     if-eq v14, v0, :cond_0
 
-    .line 4228
     :cond_b
     move-object/from16 v0, p0
 
@@ -1746,7 +1658,6 @@
 
     if-ltz v28, :cond_0
 
-    .line 4232
     :cond_c
     move-object/from16 v0, p0
 
@@ -1761,7 +1672,6 @@
     #setter for: Landroid/widget/Editor;->mLastScrollTime:J
     invoke-static/range {v28 .. v30}, Landroid/widget/Editor;->access$2502(Landroid/widget/Editor;J)J
 
-    .line 4233
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1785,7 +1695,6 @@
 
     goto/16 :goto_0
 
-    .line 4205
     .restart local v3       #delateX:D
     .restart local v5       #delateY:D
     .restart local v22       #tan:D
@@ -1838,7 +1747,6 @@
 
     if-lt v0, v1, :cond_a
 
-    .line 4207
     const/16 v28, 0x1
 
     move/from16 v0, v28
@@ -1849,19 +1757,16 @@
 
     goto/16 :goto_2
 
-    .line 4219
     .end local v3           #delateX:D
     .end local v5           #delateY:D
     .end local v22           #tan:D
     :cond_e
     move/from16 v20, v19
 
-    .line 4220
     move-object/from16 v0, p0
 
     iget v14, v0, Landroid/widget/Editor$SelectionModifierCursorController;->mMinTouchOffset:I
 
-    .line 4221
     const/16 v28, 0x1
 
     move/from16 v0, v28
@@ -1872,7 +1777,6 @@
 
     goto/16 :goto_3
 
-    .line 4240
     .end local v14           #end:I
     .end local v17           #motionX:I
     .end local v18           #motionY:I
@@ -1889,7 +1793,6 @@
 
     iput-wide v0, v2, Landroid/widget/Editor$SelectionModifierCursorController;->mPreviousTapUpTime:J
 
-    .line 4241
     const/16 v28, 0x0
 
     move/from16 v0, v28
@@ -1898,7 +1801,6 @@
 
     iput-boolean v0, v1, Landroid/widget/Editor$SelectionModifierCursorController;->mIsMoved:Z
 
-    .line 4242
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1912,7 +1814,6 @@
 
     if-eqz v28, :cond_0
 
-    .line 4243
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1924,7 +1825,6 @@
     #setter for: Landroid/widget/Editor;->mIsInDragSelectionMode:Z
     invoke-static/range {v28 .. v29}, Landroid/widget/Editor;->access$3202(Landroid/widget/Editor;Z)Z
 
-    .line 4244
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1944,7 +1844,6 @@
 
     invoke-interface/range {v28 .. v29}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
-    .line 4245
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1981,7 +1880,6 @@
 
     if-eq v0, v1, :cond_f
 
-    .line 4246
     move-object/from16 v0, p0
 
     iget-object v0, v0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
@@ -1990,7 +1888,6 @@
 
     invoke-virtual/range {v28 .. v28}, Landroid/widget/Editor;->startSelectionActionMode()Z
 
-    .line 4247
     :cond_f
     move-object/from16 v0, p0
 
@@ -2007,7 +1904,6 @@
 
     goto/16 :goto_0
 
-    .line 4096
     nop
 
     :pswitch_data_0
@@ -2027,13 +1923,10 @@
     .parameter "isInTouchMode"
 
     .prologue
-    .line 4293
     if-nez p1, :cond_0
 
-    .line 4294
     invoke-virtual {p0}, Landroid/widget/Editor$SelectionModifierCursorController;->hide()V
 
-    .line 4296
     :cond_0
     return-void
 .end method
@@ -2042,14 +1935,12 @@
     .locals 1
 
     .prologue
-    .line 4282
     const/4 v0, -0x1
 
     iput v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mMaxTouchOffset:I
 
     iput v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mMinTouchOffset:I
 
-    .line 4283
     return-void
 .end method
 
@@ -2058,7 +1949,6 @@
     .parameter "focus"
 
     .prologue
-    .line 4089
     iget-object v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mStartHandle:Landroid/widget/Editor$SelectionStartHandleView;
 
     if-eqz v0, :cond_0
@@ -2067,7 +1957,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/Editor$HandleView;->setFocusUpdate(Z)V
 
-    .line 4090
     :cond_0
     iget-object v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->mEndHandle:Landroid/widget/Editor$SelectionEndHandleView;
 
@@ -2077,7 +1966,6 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/Editor$HandleView;->setFocusUpdate(Z)V
 
-    .line 4091
     :cond_1
     return-void
 .end method
@@ -2086,7 +1974,7 @@
     .locals 1
 
     .prologue
-    .line 4044
+    .line 4258
     iget-object v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
 
     #getter for: Landroid/widget/Editor;->mTextView:Landroid/widget/TextView;
@@ -2100,18 +1988,15 @@
 
     if-eqz v0, :cond_0
 
-    .line 4050
     :goto_0
     return-void
 
-    .line 4047
+    .line 4304
     :cond_0
     invoke-direct {p0}, Landroid/widget/Editor$SelectionModifierCursorController;->initDrawables()V
 
-    .line 4048
     invoke-direct {p0}, Landroid/widget/Editor$SelectionModifierCursorController;->initHandles()V
 
-    .line 4049
     iget-object v0, p0, Landroid/widget/Editor$SelectionModifierCursorController;->this$0:Landroid/widget/Editor;
 
     #calls: Landroid/widget/Editor;->hideInsertionPointCursorController()V

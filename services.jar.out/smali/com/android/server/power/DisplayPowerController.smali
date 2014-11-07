@@ -466,7 +466,7 @@
 
     .line 398
     .local v0, resources:Landroid/content/res/Resources;
-    const v2, 0x10e0027
+    const v2, #android:integer@config_screenBrightnessDim#t
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -478,8 +478,7 @@
 
     iput v2, p0, Lcom/android/server/power/DisplayPowerController;->mScreenBrightnessDimConfig:I
 
-    .line 401
-    const v2, 0x10e0024
+    const v2, #android:integer@config_screenBrightnessSettingMinimum#t
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -493,7 +492,7 @@
 
     .line 405
     .local v1, screenBrightnessMinimum:I
-    const v2, 0x1110018
+    const v2, #android:bool@config_automatic_brightness_available#t
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -501,13 +500,11 @@
 
     iput-boolean v2, p0, Lcom/android/server/power/DisplayPowerController;->mUseSoftwareAutoBrightnessConfig:Z
 
-    .line 407
     iget-boolean v2, p0, Lcom/android/server/power/DisplayPowerController;->mUseSoftwareAutoBrightnessConfig:Z
 
     if-eqz v2, :cond_1
 
-    .line 408
-    const v2, 0x107002b
+    const v2, #android:array@config_autoBrightnessLevels#t
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -515,8 +512,7 @@
 
     iput-object v2, p0, Lcom/android/server/power/DisplayPowerController;->mAutoBrightnessLevels:[I
 
-    .line 410
-    const v2, 0x107002c
+    const v2, #android:array@config_autoBrightnessLcdBacklightValues#t
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -617,7 +613,7 @@
     .line 428
     :cond_0
     :goto_0
-    const v2, 0x10e0028
+    const v2, #android:integer@config_lightSensorWarmupTime#t
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -633,13 +629,11 @@
 
     iput v2, p0, Lcom/android/server/power/DisplayPowerController;->mScreenBrightnessRangeMinimum:I
 
-    .line 433
     const/16 v2, 0xff
 
     iput v2, p0, Lcom/android/server/power/DisplayPowerController;->mScreenBrightnessRangeMaximum:I
 
-    .line 435
-    const v2, 0x111001b
+    const v2, #android:bool@config_animateScreenLights#t
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -6615,4 +6609,59 @@
     const/4 v7, 0x1
 
     goto/16 :goto_1
+.end method
+
+.method static synthetic access$invoke-debounceLightSensor-5e59cd(Lcom/android/server/power/DisplayPowerController;)V
+    .locals 0
+    .parameter "x0"
+
+    .prologue
+    invoke-direct {p0}, Lcom/android/server/power/DisplayPowerController;->debounceLightSensor()V
+
+    return-void
+.end method
+
+.method private clampScreenBrightnessBaidu(I)I
+    .locals 5
+    .parameter "value"
+
+    .prologue
+    iget v3, p0, Lcom/android/server/power/DisplayPowerController;->mScreenBrightnessRangeMinimum:I
+
+    iget v4, p0, Lcom/android/server/power/DisplayPowerController;->mScreenBrightnessRangeMaximum:I
+
+    invoke-static {p1, v3, v4}, Lcom/android/server/power/DisplayPowerController;->clamp(III)I
+
+    move-result v1
+
+    .local v1, brightness:I
+    const/16 v0, 0x64
+
+    .local v0, DEFAULT_BRIGHTNESS_COE:I
+    const-string v3, "persist.sys.brightness_coe"
+
+    const/16 v4, 0x64
+
+    invoke-static {v3, v4}, Landroid/os/SystemProperties;->getInt(Ljava/lang/String;I)I
+
+    move-result v2
+
+    .local v2, brightnessCoe:I
+    mul-int v3, v1, v2
+
+    div-int/lit8 v1, v3, 0x64
+
+    iget v3, p0, Lcom/android/server/power/DisplayPowerController;->mScreenBrightnessRangeMaximum:I
+
+    invoke-static {v1, v3}, Ljava/lang/Math;->min(II)I
+
+    move-result v1
+
+    iget v3, p0, Lcom/android/server/power/DisplayPowerController;->mScreenBrightnessRangeMinimum:I
+
+    invoke-static {v1, v3}, Ljava/lang/Math;->max(II)I
+
+    move-result v1
+
+    return v1
 .end method

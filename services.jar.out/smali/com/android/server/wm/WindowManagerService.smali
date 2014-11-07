@@ -1266,7 +1266,7 @@
 
     move-result-object v8
 
-    const v9, 0x111000d
+    const v9, #android:bool@config_sf_limitedAlpha#t
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1554,7 +1554,7 @@
 
     move-result-object v8
 
-    const v9, 0x105000c
+    const v9, #android:dimen@status_bar_height#t
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3025,7 +3025,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e0052
+    const v2, #android:integer@config_actionbarAnimationTime#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -4958,7 +4958,7 @@
     .line 3569
     iget-object v2, p0, Lcom/android/server/wm/WindowManagerService;->mContext:Landroid/content/Context;
 
-    const v4, 0x10c0003
+    const v4, #android:interpolator@decelerate_cubic#t
 
     invoke-static {v2, v4}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -5210,7 +5210,7 @@
 
     iget-object v2, v0, Lcom/android/server/wm/WindowManagerService;->mContext:Landroid/content/Context;
 
-    const v4, 0x10c0001
+    const v4, #android:interpolator@decelerate_quad#t
 
     invoke-static {v2, v4}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -9461,7 +9461,7 @@
 
     iget-object v2, v0, Lcom/android/server/wm/WindowManagerService;->mContext:Landroid/content/Context;
 
-    const v8, 0x10a0099
+    const v8, #android:anim@window_move_from_decor#t
 
     invoke-static {v2, v8}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -14880,36 +14880,35 @@
     .parameter "animResId"
 
     .prologue
-    .line 12194
-    const v0, 0x10a003b
+    const v0, #android:anim@mz_activity_to_next_open_enter#t
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x10a003c
+    const v0, #android:anim@mz_activity_to_next_open_exit#t
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x10a0039
+    const v0, #android:anim@mz_activity_to_next_close_enter#t
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x10a003a
+    const v0, #android:anim@mz_activity_to_next_close_exit#t
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x10a0048
+    const v0, #android:anim@mz_edit_new_open_enter#t
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x10a0049
+    const v0, #android:anim@mz_edit_new_open_exit#t
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x10a0046
+    const v0, #android:anim@mz_edit_new_close_enter#t
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x10a0047
+    const v0, #android:anim@mz_edit_new_close_exit#t
 
     if-ne p1, v0, :cond_1
 
@@ -27325,7 +27324,7 @@
 
     move-result-object v0
 
-    const v1, 0x1050227
+    const v1, #android:dimen@mz_action_button_min_height#t
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -33468,7 +33467,7 @@
 
     move-result-object v15
 
-    const v17, 0x111002b
+    const v17, #android:bool@config_enableWallpaperService#t
 
     move/from16 v0, v17
 
@@ -49587,4 +49586,18 @@
     move-result-object v0
 
     return-object v0
+.end method
+
+.method public reboot(Z)V
+    .locals 2
+    .parameter "confirm"
+
+    .prologue
+    iget-object v0, p0, Lcom/android/server/wm/WindowManagerService;->mContext:Landroid/content/Context;
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1, p1}, Lcom/android/server/power/ShutdownThread;->reboot(Landroid/content/Context;Ljava/lang/String;Z)V
+
+    return-void
 .end method

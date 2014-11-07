@@ -1,4 +1,4 @@
-.class public final Landroid/content/res/AssetManager;
+.class public Landroid/content/res/AssetManager;
 .super Ljava/lang/Object;
 .source "AssetManager.java"
 
@@ -100,51 +100,41 @@
     .prologue
     const/4 v1, 0x1
 
-    .line 87
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 67
     new-instance v0, Landroid/util/TypedValue;
 
     invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mValue:Landroid/util/TypedValue;
 
-    .line 68
     const/4 v0, 0x2
 
     new-array v0, v0, [J
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mOffsets:[J
 
-    .line 74
     const/4 v0, 0x0
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mStringBlocks:[Landroid/content/res/StringBlock;
 
-    .line 76
     iput v1, p0, Landroid/content/res/AssetManager;->mNumRefs:I
 
-    .line 77
     iput-boolean v1, p0, Landroid/content/res/AssetManager;->mOpen:Z
 
-    .line 88
     monitor-enter p0
 
-    .line 93
     :try_start_0
     invoke-direct {p0}, Landroid/content/res/AssetManager;->init()V
 
-    .line 95
+    invoke-static/range {p0 .. p0}, Landroid/content/res/BaiduAssetManager$BaiduMultiThemeInjector;->init(Landroid/content/res/AssetManager;)V
+
     invoke-static {}, Landroid/content/res/AssetManager;->ensureSystemAssets()V
 
-    .line 96
     monitor-exit p0
 
-    .line 97
     return-void
 
-    .line 96
     :catchall_0
     move-exception v0
 
@@ -155,45 +145,39 @@
     throw v0
 .end method
 
-.method private constructor <init>(Z)V
+.method constructor <init>(Z)V
     .locals 2
     .parameter "isSystem"
 
     .prologue
     const/4 v1, 0x1
 
-    .line 109
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 67
     new-instance v0, Landroid/util/TypedValue;
 
     invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mValue:Landroid/util/TypedValue;
 
-    .line 68
     const/4 v0, 0x2
 
     new-array v0, v0, [J
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mOffsets:[J
 
-    .line 74
     const/4 v0, 0x0
 
     iput-object v0, p0, Landroid/content/res/AssetManager;->mStringBlocks:[Landroid/content/res/StringBlock;
 
-    .line 76
     iput v1, p0, Landroid/content/res/AssetManager;->mNumRefs:I
 
-    .line 77
     iput-boolean v1, p0, Landroid/content/res/AssetManager;->mOpen:Z
 
-    .line 116
     invoke-direct {p0}, Landroid/content/res/AssetManager;->init()V
 
-    .line 118
+    invoke-static/range {p0 .. p0}, Landroid/content/res/BaiduAssetManager$BaiduMultiThemeInjector;->init(Landroid/content/res/AssetManager;)V
+
     return-void
 .end method
 
@@ -346,41 +330,33 @@
     .locals 3
 
     .prologue
-    .line 100
     sget-object v2, Landroid/content/res/AssetManager;->sSync:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 101
     :try_start_0
     sget-object v1, Landroid/content/res/AssetManager;->sSystem:Landroid/content/res/AssetManager;
 
     if-nez v1, :cond_0
 
-    .line 102
-    new-instance v0, Landroid/content/res/AssetManager;
+    new-instance v0, Landroid/content/res/BaiduAssetManager;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Landroid/content/res/AssetManager;-><init>(Z)V
+    invoke-direct {v0, v1}, Landroid/content/res/BaiduAssetManager;-><init>(Z)V
 
-    .line 103
     .local v0, system:Landroid/content/res/AssetManager;
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/content/res/AssetManager;->makeStringBlocks(Z)V
 
-    .line 104
     sput-object v0, Landroid/content/res/AssetManager;->sSystem:Landroid/content/res/AssetManager;
 
-    .line 106
     :cond_0
     monitor-exit v2
 
-    .line 107
     return-void
 
-    .line 106
     :catchall_0
     move-exception v1
 
@@ -1264,7 +1240,7 @@
     return-object v0
 .end method
 
-.method public final open(Ljava/lang/String;I)Ljava/io/InputStream;
+.method public open(Ljava/lang/String;I)Ljava/io/InputStream;
     .locals 5
     .parameter "fileName"
     .parameter "accessMode"
@@ -1492,7 +1468,7 @@
     return-object v0
 .end method
 
-.method public final openNonAsset(ILjava/lang/String;I)Ljava/io/InputStream;
+.method public openNonAsset(ILjava/lang/String;I)Ljava/io/InputStream;
     .locals 5
     .parameter "cookie"
     .parameter "fileName"
@@ -2006,4 +1982,74 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     throw v0
+.end method
+
+.method final decRefsLockedBaidu(I)V
+    .locals 0
+    .parameter "id"
+
+    .prologue
+    invoke-direct {p0, p1}, Landroid/content/res/AssetManager;->decRefsLocked(I)V
+
+    return-void
+.end method
+
+.method final incRefsLockedBaidu(I)V
+    .locals 0
+    .parameter "id"
+
+    .prologue
+    invoke-direct {p0, p1}, Landroid/content/res/AssetManager;->incRefsLocked(I)V
+
+    return-void
+.end method
+
+.method ismOpen()Z
+    .locals 1
+
+    .prologue
+    iget-boolean v0, p0, Landroid/content/res/AssetManager;->mOpen:Z
+
+    return v0
+.end method
+
+.method newAssetInputStream(I)Landroid/content/res/AssetManager$AssetInputStream;
+    .locals 2
+    .parameter "asset"
+
+    .prologue
+    new-instance v0, Landroid/content/res/AssetManager$AssetInputStream;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, p1, v1}, Landroid/content/res/AssetManager$AssetInputStream;-><init>(Landroid/content/res/AssetManager;ILandroid/content/res/AssetManager$1;)V
+
+    return-object v0
+.end method
+
+.method openAssetBaidu(Ljava/lang/String;I)I
+    .locals 1
+    .parameter "fileName"
+    .parameter "accessMode"
+
+    .prologue
+    invoke-direct {p0, p1, p2}, Landroid/content/res/AssetManager;->openAsset(Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method final openNonAssetNativeBaidu(ILjava/lang/String;I)I
+    .locals 1
+    .parameter "cookie"
+    .parameter "fileName"
+    .parameter "accessMode"
+
+    .prologue
+    invoke-direct {p0, p1, p2, p3}, Landroid/content/res/AssetManager;->openNonAssetNative(ILjava/lang/String;I)I
+
+    move-result v0
+
+    return v0
 .end method

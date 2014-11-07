@@ -7,7 +7,8 @@
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lcom/android/internal/app/ActionBarImpl$TabImpl;,
-        Lcom/android/internal/app/ActionBarImpl$ActionModeImpl;
+        Lcom/android/internal/app/ActionBarImpl$ActionModeImpl;,
+        Lcom/android/internal/app/ActionBarImpl$BaiduInjector;
     }
 .end annotation
 
@@ -256,8 +257,7 @@
 
     if-nez v2, :cond_0
 
-    .line 185
-    const v2, 0x1020002
+    const v2, #android:id@content#t
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -887,15 +887,13 @@
 
     const/4 v7, 0x0
 
-    .line 195
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
 
-    .line 196
-    const v5, 0x10203f3
+    const v5, #android:id@action_bar_overlay_layout#t
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -917,7 +915,7 @@
 
     .line 201
     :cond_0
-    const v5, 0x10203ef
+    const v5, #android:id@action_bar#t
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -927,8 +925,7 @@
 
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mActionView:Lcom/android/internal/widget/ActionBarView;
 
-    .line 202
-    const v5, 0x10203f0
+    const v5, #android:id@action_context_bar#t
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -938,8 +935,7 @@
 
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mContextView:Lcom/android/internal/widget/ActionBarContextView;
 
-    .line 204
-    const v5, 0x10203ee
+    const v5, #android:id@action_bar_container#t
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -949,8 +945,7 @@
 
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mContainerView:Lcom/android/internal/widget/ActionBarContainer;
 
-    .line 206
-    const v5, 0x10203f4
+    const v5, #android:id@top_action_bar#t
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -972,7 +967,7 @@
 
     .line 211
     :cond_1
-    const v5, 0x10203f1
+    const v5, #android:id@split_action_bar#t
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1135,7 +1130,7 @@
 
     move-result-object v5
 
-    const v8, 0x10e0058
+    const v8, #android:integer@config_statusbarAnimationTime#t
 
     invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1158,7 +1153,7 @@
 
     new-array v6, v6, [I
 
-    const v8, 0x1010471
+    const v8, #android:attr@mzAdjustSmartBarHeight#t
 
     aput v8, v6, v7
 
@@ -1227,7 +1222,7 @@
 
     move-result-object v2
 
-    const v3, 0x1050227
+    const v3, #android:dimen@mz_action_button_min_height#t
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -2203,7 +2198,7 @@
     :goto_0
     iget-object v2, p0, Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
 
-    const v3, 0x10c0006
+    const v3, #android:interpolator@accelerate_decelerate#t
 
     invoke-static {v2, v3}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -2433,7 +2428,7 @@
 
     move-result-object v3
 
-    const v4, 0x1050227
+    const v4, #android:dimen@mz_action_button_min_height#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -2476,7 +2471,7 @@
     :cond_5
     iget-object v3, p0, Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
 
-    const v4, 0x10c0006
+    const v4, #android:interpolator@accelerate_decelerate#t
 
     invoke-static {v3, v4}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -2857,7 +2852,7 @@
 
     .line 990
     .local v0, currentTheme:Landroid/content/res/Resources$Theme;
-    const v3, 0x1010397
+    const v3, #android:attr@actionBarWidgetTheme#t
 
     const/4 v4, 0x1
 
@@ -3044,27 +3039,23 @@
     .parameter "newConfig"
 
     .prologue
-    .line 255
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/app/ActionBarImpl$BaiduInjector;->onConfigurationChanged(Lcom/android/internal/app/ActionBarImpl;)V
     iget-object v2, p0, Lcom/android/internal/app/ActionBarImpl;->mActionView:Lcom/android/internal/widget/ActionBarView;
 
     if-eqz v2, :cond_1
 
-    .line 256
     iget-object v2, p0, Lcom/android/internal/app/ActionBarImpl;->mActionView:Lcom/android/internal/widget/ActionBarView;
 
     invoke-virtual {v2, p1}, Landroid/view/ViewGroup;->dispatchConfigurationChanged(Landroid/content/res/Configuration;)V
 
-    .line 258
     iget-object v2, p0, Lcom/android/internal/app/ActionBarImpl;->mContextView:Lcom/android/internal/widget/ActionBarContextView;
 
     if-eqz v2, :cond_0
 
-    .line 259
     iget-object v2, p0, Lcom/android/internal/app/ActionBarImpl;->mContextView:Lcom/android/internal/widget/ActionBarContextView;
 
     invoke-virtual {v2, p1}, Landroid/view/ViewGroup;->dispatchConfigurationChanged(Landroid/content/res/Configuration;)V
 
-    .line 266
     :cond_0
     iget-object v2, p0, Lcom/android/internal/app/ActionBarImpl;->mActionView:Lcom/android/internal/widget/ActionBarView;
 
@@ -4879,4 +4870,14 @@
 
     .line 518
     return-void
+.end method
+
+.method static synthetic access$iget-mSplitView-c4df08(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/ActionBarContainer;
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl;->mSplitView:Lcom/android/internal/widget/ActionBarContainer;
+
+    return-object v0
 .end method

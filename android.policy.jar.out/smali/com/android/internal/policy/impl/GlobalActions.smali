@@ -10,6 +10,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/android/internal/policy/impl/GlobalActions$BaiduInjector;,
         Lcom/android/internal/policy/impl/GlobalActions$ToggleAction;,
         Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;,
         Lcom/android/internal/policy/impl/GlobalActions$Action;,
@@ -271,7 +272,7 @@
 
     move-result-object v3
 
-    const v4, 0x10802c8
+    const v4, #android:drawable@globalaction_ic_light_on#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -286,7 +287,7 @@
 
     move-result-object v3
 
-    const v4, 0x10802c7
+    const v4, #android:drawable@globalaction_ic_light_off#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -301,7 +302,7 @@
 
     move-result-object v3
 
-    const v4, 0x10802c1
+    const v4, #android:drawable@globalaction_colse_volume#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -316,7 +317,7 @@
 
     move-result-object v3
 
-    const v4, 0x10802c2
+    const v4, #android:drawable@globalaction_colse_volume_other#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -331,7 +332,7 @@
 
     move-result-object v3
 
-    const v4, 0x10802bf
+    const v4, #android:drawable@globalaction_colse_vibrator#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -346,7 +347,7 @@
 
     move-result-object v3
 
-    const v4, 0x10802c0
+    const v4, #android:drawable@globalaction_colse_vibrator_other#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -361,7 +362,7 @@
 
     move-result-object v3
 
-    const v4, 0x10802bd
+    const v4, #android:drawable@globalaction_colse_airplane#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -376,7 +377,7 @@
 
     move-result-object v3
 
-    const v4, 0x10802be
+    const v4, #android:drawable@globalaction_colse_airplane_other#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -391,7 +392,7 @@
 
     move-result-object v3
 
-    const v4, 0x1050082
+    const v4, #android:dimen@global_dialog_width#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -704,15 +705,15 @@
     .line 322
     new-instance v0, Lcom/android/internal/policy/impl/GlobalActions$3;
 
-    const v2, 0x1080032
+    const v2, #android:drawable@ic_lock_silent_mode_off#t
 
-    const v3, 0x1080031
+    const v3, #android:drawable@ic_lock_silent_mode#t
 
-    const v4, 0x10400ec
+    const v4, #android:string@global_action_toggle_silent_mode#t
 
-    const v5, 0x10400ed
+    const v5, #android:string@global_action_silent_mode_on_status#t
 
-    const v6, 0x10400ee
+    const v6, #android:string@global_action_silent_mode_off_status#t
 
     move-object v1, p0
 
@@ -723,15 +724,15 @@
     .line 358
     new-instance v0, Lcom/android/internal/policy/impl/GlobalActions$4;
 
-    const v2, 0x108032b
+    const v2, #android:drawable@ic_lock_airplane_mode#t
 
-    const v3, 0x108032c
+    const v3, #android:drawable@ic_lock_airplane_mode_off#t
 
-    const v4, 0x10400ef
+    const v4, #android:string@global_actions_toggle_airplane_mode#t
 
-    const v5, 0x10400f0
+    const v5, #android:string@global_actions_airplane_mode_on_status#t
 
-    const v6, 0x10400f1
+    const v6, #android:string@global_actions_airplane_mode_off_status#t
 
     move-object v1, p0
 
@@ -758,9 +759,9 @@
 
     new-instance v4, Lcom/android/internal/policy/impl/GlobalActions$5;
 
-    const v5, 0x1080030
+    const v5, #android:drawable@ic_lock_power_off#t
 
-    const v6, 0x10400e8
+    const v6, #android:string@global_action_power_off#t
 
     invoke-direct {v4, p0, v5, v6}, Lcom/android/internal/policy/impl/GlobalActions$5;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
 
@@ -784,7 +785,7 @@
 
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mContext:Landroid/content/Context;
 
-    const v3, 0x103030e
+    const v3, #android:style@Theme.DeviceDefault.Dialog.Alert#t
 
     invoke-direct {v0, v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
@@ -792,7 +793,7 @@
     .local v0, ab:Landroid/app/AlertDialog$Builder;
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mContext:Landroid/content/Context;
 
-    const v3, 0x1090046
+    const v3, #android:layout@globalaction_close_system_dialog#t
 
     invoke-static {v2, v3, v10}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1139,21 +1140,18 @@
     :goto_0
     iget-object v1, p0, Lcom/android/internal/policy/impl/GlobalActions;->mRebootTextView:Landroid/widget/TextView;
 
-    const v2, 0x1040612
+    const v2, #android:string@global_action_power_restart#t
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 883
     iget-object v1, p0, Lcom/android/internal/policy/impl/GlobalActions;->mCloseTextView:Landroid/widget/TextView;
 
-    const v2, 0x10400e8
+    const v2, #android:string@global_action_power_off#t
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 884
     return-void
 
-    .line 873
     :cond_1
     iget-object v1, p0, Lcom/android/internal/policy/impl/GlobalActions;->mAirplaneImageView:Landroid/widget/ImageView;
 
@@ -1593,7 +1591,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x10202b0
+    .packed-switch #android:id@close_linear#t
         :pswitch_3
         :pswitch_0
         :pswitch_2
@@ -1910,7 +1908,7 @@
     .line 237
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x1020286
+    const v3, #android:id@customPanel#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1958,7 +1956,7 @@
 
     move-result-object v2
 
-    const v3, 0x10802cc
+    const v3, #android:drawable@globalaction_lock_power_background#t
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1970,7 +1968,7 @@
     :cond_1
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b4
+    const v3, #android:id@volume_linear#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1983,7 +1981,7 @@
     .line 252
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b2
+    const v3, #android:id@reboot_linear#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1996,7 +1994,7 @@
     .line 254
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b0
+    const v3, #android:id@close_linear#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2009,7 +2007,7 @@
     .line 257
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202ba
+    const v3, #android:id@airplane_linear#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2022,7 +2020,7 @@
     .line 260
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b5
+    const v3, #android:id@volume_img#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2035,7 +2033,7 @@
     .line 264
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b3
+    const v3, #android:id@reboot_txt#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2048,7 +2046,7 @@
     .line 266
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b1
+    const v3, #android:id@close_txt#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2061,7 +2059,7 @@
     .line 269
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b7
+    const v3, #android:id@vibrator_linear#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2074,7 +2072,7 @@
     .line 272
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b8
+    const v3, #android:id@vibrator_img#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2087,7 +2085,7 @@
     .line 274
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b6
+    const v3, #android:id@volume_img_light#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2100,7 +2098,7 @@
     .line 277
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202bb
+    const v3, #android:id@airplane_img#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2113,7 +2111,7 @@
     .line 280
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202b9
+    const v3, #android:id@vibrator_img_light#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2126,7 +2124,7 @@
     .line 283
     iget-object v2, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Landroid/app/AlertDialog;
 
-    const v3, 0x10202bc
+    const v3, #android:id@airplane_img_light#t
 
     invoke-virtual {v2, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2225,3 +2223,54 @@
 
     goto :goto_0
 .end method
+
+.method static synthetic access$iget-mHasTelephony-8c6523(Lcom/android/internal/policy/impl/GlobalActions;)Z
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    iget-boolean v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mHasTelephony:Z
+
+    return v0
+.end method
+
+.method static synthetic access$invoke-onAirplaneModeChanged-362368(Lcom/android/internal/policy/impl/GlobalActions;)V
+    .locals 0
+    .parameter "x0"
+
+    .prologue
+    invoke-direct {p0}, Lcom/android/internal/policy/impl/GlobalActions;->onAirplaneModeChanged()V
+
+    return-void
+.end method
+
+.method static synthetic access$iget-mDialog-9c4891(Lcom/android/internal/policy/impl/GlobalActions;)Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mDialog:Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;
+
+    return-object v0
+.end method
+
+.method static synthetic access$invoke-refreshSilentMode-a5eb93(Lcom/android/internal/policy/impl/GlobalActions;)V
+    .locals 0
+    .parameter "x0"
+
+    .prologue
+    invoke-direct {p0}, Lcom/android/internal/policy/impl/GlobalActions;->refreshSilentMode()V
+
+    return-void
+.end method
+
+.method static synthetic access$invoke-handleShow-6b8f53(Lcom/android/internal/policy/impl/GlobalActions;)V
+    .locals 0
+    .parameter "x0"
+
+    .prologue
+    invoke-direct {p0}, Lcom/android/internal/policy/impl/GlobalActions;->handleShow()V
+
+    return-void
+.end method
+

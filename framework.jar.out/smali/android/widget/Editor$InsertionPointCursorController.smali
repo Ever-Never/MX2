@@ -103,7 +103,7 @@
     .locals 1
 
     .prologue
-    .line 3963
+    invoke-static {}, Landroid/widget/Editor$BaiduEditorInjector;->dismiss()V
     iget-object v0, p0, Landroid/widget/Editor$InsertionPointCursorController;->mMagnifier:Lcom/meizu/widget/MagnifierPopupWindow;
 
     if-eqz v0, :cond_0
@@ -116,17 +116,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 3964
     iget-object v0, p0, Landroid/widget/Editor$InsertionPointCursorController;->mMagnifier:Lcom/meizu/widget/MagnifierPopupWindow;
 
     invoke-virtual {v0}, Lcom/meizu/widget/MagnifierPopupWindow;->dismiss()V
 
-    .line 3965
     iget-object v0, p0, Landroid/widget/Editor$InsertionPointCursorController;->this$0:Landroid/widget/Editor;
 
     invoke-virtual {v0}, Landroid/widget/Editor;->startSelectionActionMode()Z
 
-    .line 3967
     :cond_0
     return-void
 .end method
@@ -135,6 +132,7 @@
     .locals 1
 
     .prologue
+    .line 3963
     .line 3929
     iget-object v0, p0, Landroid/widget/Editor$InsertionPointCursorController;->mMagnifier:Lcom/meizu/widget/MagnifierPopupWindow;
 
